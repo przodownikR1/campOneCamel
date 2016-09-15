@@ -3,11 +3,11 @@ package pl.java.scalatech.camel;
 import java.math.BigDecimal;
 import java.util.Random;
 
-import org.apache.camel.Body;
 import org.apache.camel.Handler;
-import org.apache.camel.Header;
 import org.springframework.stereotype.Component;
+
 import com.github.javafaker.Faker;
+
 import lombok.extern.slf4j.Slf4j;
 import pl.java.scalatech.domain.Currency;
 import pl.java.scalatech.domain.Position;

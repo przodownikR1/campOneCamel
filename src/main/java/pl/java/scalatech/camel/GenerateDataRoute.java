@@ -10,12 +10,12 @@ public class GenerateDataRoute extends RouteBuilder{
 
    @Override
     public void configure() throws Exception {
-        from("timer://foo?fixedRate=true&period=2000")
+        from("timer://foo?fixedRate=true&period=2000").routeId("timerRoute")
          .bean(UserGenerate.class).to("seda:throttle");
    
-         from("seda:throttle").throttle(2).timePeriodMillis(20000).to("seda:nextQueue");
+         from("seda:throttle").routeId("throttleMessageRoute").throttle(2).timePeriodMillis(20000).to("seda:nextQueue");
          
-         from("seda:nextQueue").to("activemq:randomUser");
+         from("seda:nextQueue").routeId("sendToQueue").to("activemq:randomUser");
     }
 
     

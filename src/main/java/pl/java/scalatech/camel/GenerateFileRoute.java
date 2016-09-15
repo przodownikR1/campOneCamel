@@ -31,16 +31,31 @@ public class GenerateFileRoute extends RouteBuilder{
     @Override
     public void configure() throws Exception {
         
-       from(DIRECT_GENERATE)
+       from(DIRECT_GENERATE).routeId("generateFileRoute")
          .loop(10)
          .bean(UserGenerate.class)
          .setHeader(CAMEL_FILE_NAME).simple(fileName)
          .multicast()
          .parallelProcessing().to(DIRECT_SAVE_TO_DB,SEDA_TO_FILE_AND_QUEUE,ACTIVEMQ_USER);
        
-         from(SEDA_TO_FILE_AND_QUEUE).marshal(bindy).to(FILE_USER_FILE_EXIST_APPEND);
+         from(SEDA_TO_FILE_AND_QUEUE)
+          .routeId("marshalToFile")
+          .setHeader("position").method(HeaderPosition.class).to("direct:selectFile");
+         
+          from("direct:selectFile").choice()
+          .when(simple("${in.header.position} contains 'PROGRAMMER' "))
+          .setHeader(CAMEL_FILE_NAME).simple("${in.header.position}.csv")
+          .to("direct:marshal")
+          .when(simple("${in.header.position} contains 'DEVOPS'"))
+          .setHeader(CAMEL_FILE_NAME).simple("${in.header.position}.csv")
+          .to("direct:marshal")
+          .otherwise().to("direct:marshal");
+          
+         
+          from("direct:marshal").marshal(bindy)
+          .to(FILE_USER_FILE_EXIST_APPEND);
        
-         from(DIRECT_SAVE_TO_DB).removeHeader(CAMEL_FILE_NAME).beanRef(USER_SERVICE);
+         from(DIRECT_SAVE_TO_DB).routeId("saveToDB").removeHeader(CAMEL_FILE_NAME).beanRef(USER_SERVICE);
     }
     
    
