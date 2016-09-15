@@ -6710,3 +6710,809 @@ java.lang.IllegalStateException: Queue full
 [WARN] 2016-09-15 16:02:17.336 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
 [INFO] 2016-09-15 16:02:17.336 [Camel (camel-1) thread #15 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 10 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route3 = 1, route2 = 9]
 [INFO] 2016-09-15 16:02:18.337 [Camel (camel-1) thread #15 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 9 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route2 = 9]
+[INFO] 2016-09-15 16:11:34.301 [restartedMain] p.j.s.GeneratorDanychApplication  Starting GeneratorDanychApplication on przodownik-Dell-System-XPS-L702X with PID 32073 (/home/przodownik/workspace-sts-3.8.0.RELEASE/generatorDanych/bin started by przodownik in /home/przodownik/workspace-sts-3.8.0.RELEASE/generatorDanych)
+[INFO] 2016-09-15 16:11:34.304 [restartedMain] p.j.s.GeneratorDanychApplication  No active profile set, falling back to default profiles: default
+[INFO] 2016-09-15 16:11:34.375 [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31332f6d: startup date [Thu Sep 15 16:11:34 CEST 2016]; root of context hierarchy
+[INFO] 2016-09-15 16:11:34.499 [background-preinit] o.h.validator.internal.util.Version  HV000001: Hibernate Validator 5.2.4.Final
+[INFO] 2016-09-15 16:11:36.441 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$74a3b51f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2016-09-15 16:11:36.489 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$96cd7b3e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2016-09-15 16:11:36.956 [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer  Tomcat initialized with port(s): 5555 (http)
+[INFO] 2016-09-15 16:11:36.971 [restartedMain] o.a.catalina.core.StandardService  Starting service Tomcat
+[INFO] 2016-09-15 16:11:36.973 [restartedMain] o.a.catalina.core.StandardEngine  Starting Servlet Engine: Apache Tomcat/8.5.4
+[INFO] 2016-09-15 16:11:37.102 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]  Initializing Spring embedded WebApplicationContext
+[INFO] 2016-09-15 16:11:37.103 [localhost-startStop-1] o.s.web.context.ContextLoader  Root WebApplicationContext: initialization completed in 2733 ms
+[INFO] 2016-09-15 16:11:37.680 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'uploadServlet' to [/hawtio/file-upload/*]
+[INFO] 2016-09-15 16:11:37.683 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'loginServlet' to [/hawtio/auth/login/*]
+[INFO] 2016-09-15 16:11:37.684 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'logoutServlet' to [/hawtio/auth/logout/*]
+[INFO] 2016-09-15 16:11:37.685 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'keycloakServlet' to [/hawtio/keycloak/*]
+[INFO] 2016-09-15 16:11:37.686 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'exportContextServlet' to [/hawtio/exportContext/*]
+[INFO] 2016-09-15 16:11:37.686 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'javaDocServlet' to [/hawtio/javadoc/*]
+[INFO] 2016-09-15 16:11:37.687 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'contextFormatterServlet' to [/hawtio/contextFormatter/*]
+[INFO] 2016-09-15 16:11:37.688 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'gitServlet' to [/hawtio/git/*]
+[INFO] 2016-09-15 16:11:37.689 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'proxyServlet' to [/hawtio/proxy/*]
+[INFO] 2016-09-15 16:11:37.689 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'userServlet' to [/user/*, /hawtio/user/*]
+[INFO] 2016-09-15 16:11:37.690 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] 2016-09-15 16:11:37.691 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'webServlet' to [/h2-console/*]
+[INFO] 2016-09-15 16:11:37.695 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'metricFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.696 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.697 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.697 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.697 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.698 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.698 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'redirectFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:11:37.698 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'sessionExpiryFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:11:37.699 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'cacheHeadersFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:11:37.699 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'CORSFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:11:37.699 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'XFrameOptionsFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:11:37.700 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'authenticationFilter' to urls: [/hawtio/auth/*, /jolokia/*, /hawtio/upload/*, /hawtio/javadoc/*]
+[INFO] 2016-09-15 16:11:37.700 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'applicationContextIdFilter' to: [/*]
+[INFO] 2016-09-15 16:11:37.733 [localhost-startStop-1] io.hawt.system.ConfigManager  Configuration will be discovered via system properties
+[INFO] 2016-09-15 16:11:37.736 [localhost-startStop-1] io.hawt.jmx.JmxTreeWatcher  Welcome to hawtio 1.4.65 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+[INFO] 2016-09-15 16:11:37.739 [localhost-startStop-1] io.hawt.jmx.UploadManager  Using file upload directory: /tmp/uploads
+[INFO] 2016-09-15 16:11:37.753 [localhost-startStop-1] io.hawt.web.AuthenticationFilter  Starting hawtio authentication filter, JAAS authentication disabled
+[INFO] 2016-09-15 16:11:38.427 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean  Building JPA container EntityManagerFactory for persistence unit 'default'
+[INFO] 2016-09-15 16:11:38.453 [restartedMain] o.h.jpa.internal.util.LogHelper  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO] 2016-09-15 16:11:38.554 [restartedMain] org.hibernate.Version  HHH000412: Hibernate Core {5.0.9.Final}
+[INFO] 2016-09-15 16:11:38.556 [restartedMain] org.hibernate.cfg.Environment  HHH000206: hibernate.properties not found
+[INFO] 2016-09-15 16:11:38.558 [restartedMain] org.hibernate.cfg.Environment  HHH000021: Bytecode provider name : javassist
+[INFO] 2016-09-15 16:11:38.607 [restartedMain] o.h.annotations.common.Version  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO] 2016-09-15 16:11:38.721 [restartedMain] org.hibernate.dialect.Dialect  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO] 2016-09-15 16:11:39.143 [restartedMain] o.h.tool.hbm2ddl.SchemaExport  HHH000227: Running hbm2ddl schema export
+[INFO] 2016-09-15 16:11:39.152 [restartedMain] o.h.tool.hbm2ddl.SchemaExport  HHH000230: Schema export complete
+[INFO] 2016-09-15 16:11:39.187 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] 2016-09-15 16:11:40.577 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]  jolokia: No access restrictor found, access to any MBean is allowed
+[INFO] 2016-09-15 16:11:40.799 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31332f6d: startup date [Thu Sep 15 16:11:34 CEST 2016]; root of context hierarchy
+[INFO] 2016-09-15 16:11:40.875 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping  Mapped "{[/generate]}" onto java.lang.String pl.java.scalatech.web.GenerateController.generate()
+[INFO] 2016-09-15 16:11:40.880 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] 2016-09-15 16:11:40.880 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] 2016-09-15 16:11:40.900 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/plugin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] 2016-09-15 16:11:40.901 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] 2016-09-15 16:11:40.917 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/plugins/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:11:40.917 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:11:40.917 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:11:40.917 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:11:40.918 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:11:40.970 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:11:41.072 [restartedMain] o.a.c.i.c.DefaultTypeConverter  Loaded 188 type converters
+[INFO] 2016-09-15 16:11:41.598 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.599 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.601 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.601 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.602 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.604 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.604 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[INFO] 2016-09-15 16:11:41.605 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[INFO] 2016-09-15 16:11:41.606 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[INFO] 2016-09-15 16:11:41.609 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[INFO] 2016-09-15 16:11:41.609 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.612 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[INFO] 2016-09-15 16:11:41.613 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.614 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:11:41.882 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer  LiveReload server is running on port 35729
+[INFO] 2016-09-15 16:11:42.017 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter  Registering beans for JMX exposure on startup
+[INFO] 2016-09-15 16:11:42.027 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Registering beans for JMX exposure on startup
+[INFO] 2016-09-15 16:11:42.035 [restartedMain] o.s.c.s.DefaultLifecycleProcessor  Starting beans in phase 0
+[INFO] 2016-09-15 16:11:42.047 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[INFO] 2016-09-15 16:11:42.088 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[INFO] 2016-09-15 16:11:42.097 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[INFO] 2016-09-15 16:11:42.104 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[INFO] 2016-09-15 16:11:42.110 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[INFO] 2016-09-15 16:11:42.117 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[INFO] 2016-09-15 16:11:42.123 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[INFO] 2016-09-15 16:11:42.130 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[INFO] 2016-09-15 16:11:42.142 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[INFO] 2016-09-15 16:11:42.148 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[INFO] 2016-09-15 16:11:42.153 [restartedMain] o.s.c.s.DefaultLifecycleProcessor  Starting beans in phase 2147483647
+[INFO] 2016-09-15 16:11:42.249 [restartedMain] o.a.c.spring.boot.RoutesCollector  Loading additional Camel XML routes from: classpath:camel/*.xml
+[INFO] 2016-09-15 16:11:42.250 [restartedMain] o.a.c.spring.boot.RoutesCollector  Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[INFO] 2016-09-15 16:11:42.251 [restartedMain] o.a.camel.spring.SpringCamelContext  Apache Camel 2.17.3 (CamelContext: camel-1) is starting
+[INFO] 2016-09-15 16:11:42.253 [restartedMain] o.a.c.m.ManagedManagementStrategy  JMX is enabled
+[INFO] 2016-09-15 16:11:42.383 [restartedMain] o.a.c.i.DefaultRuntimeEndpointRegistry  Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[INFO] 2016-09-15 16:11:42.655 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://throttle?size=10] is using shared queue: seda://throttle with size: 10
+[INFO] 2016-09-15 16:11:42.666 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://throttle] is using shared queue: seda://throttle with size: 10
+[INFO] 2016-09-15 16:11:42.671 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://nextQueue] is using shared queue: seda://nextQueue with size: 2147483647
+[INFO] 2016-09-15 16:11:42.902 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://toFileAndQueue] is using shared queue: seda://toFileAndQueue with size: 2147483647
+[INFO] 2016-09-15 16:11:42.966 [restartedMain] o.a.camel.spring.SpringCamelContext  AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+[INFO] 2016-09-15 16:11:42.967 [restartedMain] o.a.camel.spring.SpringCamelContext  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[INFO] 2016-09-15 16:11:43.100 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route1 started and consuming from: Endpoint[timer://foo?fixedRate=true&period=2000]
+[INFO] 2016-09-15 16:11:43.104 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route2 started and consuming from: Endpoint[seda://throttle]
+[INFO] 2016-09-15 16:11:43.108 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route3 started and consuming from: Endpoint[seda://nextQueue]
+[INFO] 2016-09-15 16:11:43.110 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route4 started and consuming from: Endpoint[direct://generate]
+[INFO] 2016-09-15 16:11:43.113 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route5 started and consuming from: Endpoint[seda://toFileAndQueue]
+[INFO] 2016-09-15 16:11:43.115 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route6 started and consuming from: Endpoint[direct://saveToDB]
+[INFO] 2016-09-15 16:11:43.116 [restartedMain] o.a.camel.spring.SpringCamelContext  Total 6 routes, of which 6 are started.
+[INFO] 2016-09-15 16:11:43.117 [restartedMain] o.a.camel.spring.SpringCamelContext  Apache Camel 2.17.3 (CamelContext: camel-1) started in 0.865 seconds
+[INFO] 2016-09-15 16:11:43.132 [restartedMain] o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-5555"]
+[INFO] 2016-09-15 16:11:43.148 [restartedMain] o.a.coyote.http11.Http11NioProtocol  Starting ProtocolHandler [http-nio-5555]
+[INFO] 2016-09-15 16:11:43.155 [restartedMain] o.a.tomcat.util.net.NioSelectorPool  Using a shared selector for servlet write/read
+[INFO] 2016-09-15 16:11:43.178 [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer  Tomcat started on port(s): 5555 (http)
+[INFO] 2016-09-15 16:11:43.186 [restartedMain] p.j.s.GeneratorDanychApplication  Started GeneratorDanychApplication in 9.269 seconds (JVM running for 10.068)
+[INFO] 2016-09-15 16:11:44.181 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=benny.jacobs@yahoo.com, name=Skiles, creditCard=1211-1221-1234-2201, creditCardType=maestro, login=Ubaldo Abernathy DDS, salary=1272, currency=CHF, position=DEVOPS, city=Lake Cecile, country=Congo)
+[WARN] 2016-09-15 16:11:44.662 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:11:46.119 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=erling.kassulke@yahoo.com, name=Blick, creditCard=1234-2121-1221-1211, creditCardType=solo, login=Gino Nikolaus, salary=5815, currency=CHF, position=LEADER, city=East Harrisonshire, country=Isle of Man)
+[WARN] 2016-09-15 16:11:46.144 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:11:48.116 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=constantin.osinski@gmail.com, name=Wunsch, creditCard=1234-2121-1221-1211, creditCardType=laser, login=Leann Koelpin II, salary=450, currency=PLN, position=PROGRAMMER, city=South Sterlingburgh, country=Fiji)
+[INFO] 2016-09-15 16:11:50.119 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=luisa.altenwerth@hotmail.com, name=Shanahan, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Hanna Klocko, salary=3608, currency=USD, position=MANAGER, city=New Arjunbury, country=Gibraltar)
+[INFO] 2016-09-15 16:11:52.120 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=destini.donnelly@yahoo.com, name=Johnson, creditCard=1228-1221-1221-1431, creditCardType=maestro, login=Nyasia Torp IV, salary=8918, currency=EUR, position=PROGRAMMER, city=New Mariannechester, country=Pitcairn Islands)
+[INFO] 2016-09-15 16:11:54.118 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=damien.lehner@yahoo.com, name=Conn, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Alysson Abbott, salary=3957, currency=PLN, position=DBA, city=Port Prudenceside, country=Algeria)
+[INFO] 2016-09-15 16:11:56.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=vernon.armstrong@hotmail.com, name=Hammes, creditCard=1228-1221-1221-1431, creditCardType=maestro, login=Mr. Chyna Schoen, salary=8467, currency=EUR, position=MANAGER, city=Kuhnbury, country=Saudi Arabia)
+[INFO] 2016-09-15 16:11:58.118 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=oswald.lesch@gmail.com, name=Bradtke, creditCard=1234-2121-1221-1211, creditCardType=discover, login=Irving Lueilwitz, salary=2576, currency=USD, position=PROGRAMMER, city=North Harleyfort, country=Bosnia and Herzegovina)
+[INFO] 2016-09-15 16:12:00.119 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=martina.reichel@gmail.com, name=Nicolas, creditCard=1234-2121-1221-1211, creditCardType=switch, login=Jairo Braun, salary=5959, currency=PLN, position=DEVOPS, city=Beaulahmouth, country=Bangladesh)
+[INFO] 2016-09-15 16:12:02.118 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=charlie.cartwright@gmail.com, name=Reichel, creditCard=1211-1221-1234-2201, creditCardType=mastercard, login=Vicente Wiza, salary=5193, currency=EUR, position=MANAGER, city=Port Billy, country=Sudan)
+[INFO] 2016-09-15 16:12:04.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=cielo.champlin@gmail.com, name=Torphy, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Alanna Prosacco, salary=3463, currency=CHF, position=DBA, city=Wehnershire, country=United Arab Emirates)
+[WARN] 2016-09-15 16:12:04.195 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:12:06.118 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=dave.o'kon@yahoo.com, name=Kirlin, creditCard=1234-2121-1221-1211, creditCardType=american_express, login=Dr. Claire Daugherty, salary=5088, currency=PLN, position=DEVOPS, city=Feeneyberg, country=Mongolia)
+[WARN] 2016-09-15 16:12:06.132 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:12:08.119 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=baylee.krajcik@gmail.com, name=Kuvalis, creditCard=1234-2121-1221-1211, creditCardType=american_express, login=Soledad Shields, salary=1168, currency=USD, position=PROGRAMMER, city=West Lennamouth, country=Seychelles)
+[INFO] 2016-09-15 16:12:10.118 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=brandyn.ortiz@hotmail.com, name=Collins, creditCard=1212-1221-1121-1234, creditCardType=laser, login=Raleigh Skiles, salary=2433, currency=EUR, position=MANAGER, city=Lake Nolan, country=Isle of Man)
+[INFO] 2016-09-15 16:12:12.118 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=blaze.wolf@gmail.com, name=Bruen, creditCard=1234-2121-1221-1211, creditCardType=jcb, login=Clark Kub, salary=6627, currency=CHF, position=LEADER, city=Lueilwitzfurt, country=British Indian Ocean Territory (Chagos Archipelago))
+[INFO] 2016-09-15 16:12:14.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ted.smith@yahoo.com, name=Berge, creditCard=1228-1221-1221-1431, creditCardType=maestro, login=Golden Walker, salary=1364, currency=PLN, position=MANAGER, city=Naomiehaven, country=Marshall Islands)
+[ERROR] 2016-09-15 16:12:14.124 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-49 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-50). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         4]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         2]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:14.128 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-50]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:16.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=felton.grady@gmail.com, name=Leffler, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Mr. Lauriane Moen, salary=4431, currency=PLN, position=PROGRAMMER, city=Morarborough, country=Equatorial Guinea)
+[ERROR] 2016-09-15 16:12:16.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-51 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-52). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         2]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:16.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-52]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:18.116 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=liliana.wisozk@yahoo.com, name=Lehner, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Abe Ward, salary=9962, currency=EUR, position=MANAGER, city=Camryntown, country=Oman)
+[ERROR] 2016-09-15 16:12:18.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-53 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-54). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         1]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:18.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-54]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:20.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=orval.gerhold@hotmail.com, name=Stamm, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Miss Emanuel King, salary=6106, currency=EUR, position=LEADER, city=Port Gunner, country=Tonga)
+[ERROR] 2016-09-15 16:12:20.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-55 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-56). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         2]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         0]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:20.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-56]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:22.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=madelyn.bogan@yahoo.com, name=Vandervort, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Israel Bernier, salary=1632, currency=USD, position=MANAGER, city=South Leannbury, country=Ukraine)
+[ERROR] 2016-09-15 16:12:22.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-57 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-58). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         1]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:22.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-58]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:24.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=jennings.sawayn@gmail.com, name=Herman, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Elsie Labadie, salary=8367, currency=CHF, position=MANAGER, city=Lonzomouth, country=Palestinian Territory)
+[ERROR] 2016-09-15 16:12:24.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-59 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-60). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         2]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         1]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:24.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-60]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:24.193 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:12:24.553 [http-nio-5555-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]  Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO] 2016-09-15 16:12:24.554 [http-nio-5555-exec-1] o.s.web.servlet.DispatcherServlet  FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] 2016-09-15 16:12:24.572 [http-nio-5555-exec-1] o.s.web.servlet.DispatcherServlet  FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO] 2016-09-15 16:12:26.116 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=sean.bosco@gmail.com, name=Monahan, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Mrs. Imogene Haag, salary=4421, currency=EUR, position=DBA, city=Breitenbergtown, country=Bolivia)
+[WARN] 2016-09-15 16:12:26.128 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:12:28.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=deontae.donnelly@gmail.com, name=Bauch, creditCard=1211-1221-1234-2201, creditCardType=forbrugsforeningen, login=Hillard Wuckert Sr., salary=578, currency=USD, position=DBA, city=West Heath, country=China)
+[INFO] 2016-09-15 16:12:30.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=curtis.mraz@gmail.com, name=Barrows, creditCard=1228-1221-1221-1431, creditCardType=diners_club, login=Clotilde Dicki Sr., salary=8950, currency=CHF, position=LEADER, city=Sunnyfort, country=Ukraine)
+[ERROR] 2016-09-15 16:12:30.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-73 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-74). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         1]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:30.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-74]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:32.117 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ignatius.kiehn@gmail.com, name=Frami, creditCard=1234-2121-1221-1211, creditCardType=laser, login=Wade Braun, salary=109, currency=USD, position=LEADER, city=Lake Reyland, country=Uruguay)
+[ERROR] 2016-09-15 16:12:32.118 [Camel (camel-1) thread #3 - timer://foo] o.a.c.processor.DefaultErrorHandler  Failed delivery for (MessageId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-75 on ExchangeId: ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-76). Exhausted after delivery attempt: 1 caught: java.lang.IllegalStateException: Queue full
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [timer://foo?fixedRate=true&period=2000                                        ] [         1]
+[route1            ] [bean1             ] [bean[pl.java.scalatech.camel.UserGenerate@1a42aa54]                           ] [         1]
+[route1            ] [to1               ] [seda:throttle?size=10                                                         ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[WARN] 2016-09-15 16:12:32.124 [Camel (camel-1) thread #3 - timer://foo] o.a.c.component.timer.TimerConsumer  Error processing exchange. Exchange[ID-przodownik-Dell-System-XPS-L702X-46659-1473948699908-0-76]. Caused by: [java.lang.IllegalStateException - Queue full]
+java.lang.IllegalStateException: Queue full
+	at java.util.AbstractQueue.add(AbstractQueue.java:98)
+	at org.apache.camel.component.seda.SedaProducer.addToQueue(SedaProducer.java:244)
+	at org.apache.camel.component.seda.SedaProducer.process(SedaProducer.java:165)
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:145)
+	at org.apache.camel.management.InstrumentationProcessor.process(InstrumentationProcessor.java:77)
+	at org.apache.camel.processor.RedeliveryErrorHandler.process(RedeliveryErrorHandler.java:468)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:121)
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:83)
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:197)
+	at org.apache.camel.component.timer.TimerConsumer.sendTimerExchange(TimerConsumer.java:192)
+	at org.apache.camel.component.timer.TimerConsumer$1.run(TimerConsumer.java:76)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+[INFO] 2016-09-15 16:12:33.795 [RMI TCP Connection(10)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  Application shutdown requested.
+[INFO] 2016-09-15 16:12:33.796 [RMI TCP Connection(10)-127.0.0.1] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31332f6d: startup date [Thu Sep 15 16:11:34 CEST 2016]; root of context hierarchy
+[INFO] 2016-09-15 16:12:33.798 [RMI TCP Connection(10)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor  Stopping beans in phase 2147483647
+[INFO] 2016-09-15 16:12:33.798 [RMI TCP Connection(10)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor  Stopping beans in phase 0
+[INFO] 2016-09-15 16:12:33.800 [RMI TCP Connection(10)-127.0.0.1] o.s.b.a.e.jmx.EndpointMBeanExporter  Unregistering JMX-exposed beans on shutdown
+[INFO] 2016-09-15 16:12:33.800 [RMI TCP Connection(10)-127.0.0.1] o.s.b.a.e.jmx.EndpointMBeanExporter  Unregistering JMX-exposed beans
+[INFO] 2016-09-15 16:12:33.801 [RMI TCP Connection(10)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter  Unregistering JMX-exposed beans on shutdown
+[INFO] 2016-09-15 16:12:33.802 [RMI TCP Connection(10)-127.0.0.1] o.a.camel.spring.SpringCamelContext  Apache Camel 2.17.3 (CamelContext: camel-1) is shutting down
+[INFO] 2016-09-15 16:12:33.803 [RMI TCP Connection(10)-127.0.0.1] o.a.c.impl.DefaultShutdownStrategy  Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[INFO] 2016-09-15 16:12:33.806 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Route: route1 shutdown complete, was consuming from: Endpoint[timer://foo?fixedRate=true&period=2000]
+[INFO] 2016-09-15 16:12:33.807 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 11 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route2 = 11]
+[INFO] 2016-09-15 16:12:34.808 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 11 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route2 = 11]
+[INFO] 2016-09-15 16:12:35.809 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 11 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route2 = 11]
+[INFO] 2016-09-15 16:12:36.810 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 11 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route2 = 11]
+[INFO] 2016-09-15 16:12:37.811 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 11 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route2 = 11]
+[INFO] 2016-09-15 16:12:38.812 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 11 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route2 = 11]
+[INFO] 2016-09-15 16:14:00.347 [restartedMain] p.j.s.GeneratorDanychApplication  Starting GeneratorDanychApplication on przodownik-Dell-System-XPS-L702X with PID 32272 (/home/przodownik/workspace-sts-3.8.0.RELEASE/generatorDanych/bin started by przodownik in /home/przodownik/workspace-sts-3.8.0.RELEASE/generatorDanych)
+[INFO] 2016-09-15 16:14:00.353 [restartedMain] p.j.s.GeneratorDanychApplication  No active profile set, falling back to default profiles: default
+[INFO] 2016-09-15 16:14:00.431 [restartedMain] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext  Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e1e6124: startup date [Thu Sep 15 16:14:00 CEST 2016]; root of context hierarchy
+[INFO] 2016-09-15 16:14:00.545 [background-preinit] o.h.validator.internal.util.Version  HV000001: Hibernate Validator 5.2.4.Final
+[INFO] 2016-09-15 16:14:02.676 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$452b312a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2016-09-15 16:14:02.728 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker  Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [class org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$6754f749] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO] 2016-09-15 16:14:03.277 [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer  Tomcat initialized with port(s): 5555 (http)
+[INFO] 2016-09-15 16:14:03.295 [restartedMain] o.a.catalina.core.StandardService  Starting service Tomcat
+[INFO] 2016-09-15 16:14:03.297 [restartedMain] o.a.catalina.core.StandardEngine  Starting Servlet Engine: Apache Tomcat/8.5.4
+[INFO] 2016-09-15 16:14:03.434 [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]  Initializing Spring embedded WebApplicationContext
+[INFO] 2016-09-15 16:14:03.435 [localhost-startStop-1] o.s.web.context.ContextLoader  Root WebApplicationContext: initialization completed in 3009 ms
+[INFO] 2016-09-15 16:14:03.960 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'uploadServlet' to [/hawtio/file-upload/*]
+[INFO] 2016-09-15 16:14:03.963 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'userServlet' to [/user/*, /hawtio/user/*]
+[INFO] 2016-09-15 16:14:03.963 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'gitServlet' to [/hawtio/git/*]
+[INFO] 2016-09-15 16:14:03.964 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'loginServlet' to [/hawtio/auth/login/*]
+[INFO] 2016-09-15 16:14:03.964 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'logoutServlet' to [/hawtio/auth/logout/*]
+[INFO] 2016-09-15 16:14:03.965 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'keycloakServlet' to [/hawtio/keycloak/*]
+[INFO] 2016-09-15 16:14:03.965 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'exportContextServlet' to [/hawtio/exportContext/*]
+[INFO] 2016-09-15 16:14:03.966 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'javaDocServlet' to [/hawtio/javadoc/*]
+[INFO] 2016-09-15 16:14:03.967 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'contextFormatterServlet' to [/hawtio/contextFormatter/*]
+[INFO] 2016-09-15 16:14:03.967 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'proxyServlet' to [/hawtio/proxy/*]
+[INFO] 2016-09-15 16:14:03.968 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'dispatcherServlet' to [/]
+[INFO] 2016-09-15 16:14:03.969 [localhost-startStop-1] o.s.b.w.s.ServletRegistrationBean  Mapping servlet: 'webServlet' to [/h2-console/*]
+[INFO] 2016-09-15 16:14:03.973 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'metricFilter' to: [/*]
+[INFO] 2016-09-15 16:14:03.974 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO] 2016-09-15 16:14:03.974 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO] 2016-09-15 16:14:03.974 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO] 2016-09-15 16:14:03.974 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'requestContextFilter' to: [/*]
+[INFO] 2016-09-15 16:14:03.974 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[INFO] 2016-09-15 16:14:03.975 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'redirectFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:14:03.975 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'sessionExpiryFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:14:03.975 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'cacheHeadersFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:14:03.976 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'CORSFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:14:03.976 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'XFrameOptionsFilter' to urls: [/hawtio/*]
+[INFO] 2016-09-15 16:14:03.976 [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean  Mapping filter: 'authenticationFilter' to urls: [/hawtio/auth/*, /jolokia/*, /hawtio/upload/*, /hawtio/javadoc/*]
+[INFO] 2016-09-15 16:14:03.976 [localhost-startStop-1] o.s.b.w.s.FilterRegistrationBean  Mapping filter: 'applicationContextIdFilter' to: [/*]
+[INFO] 2016-09-15 16:14:04.002 [localhost-startStop-1] io.hawt.system.ConfigManager  Configuration will be discovered via system properties
+[INFO] 2016-09-15 16:14:04.005 [localhost-startStop-1] io.hawt.jmx.JmxTreeWatcher  Welcome to hawtio 1.4.65 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-)
+[INFO] 2016-09-15 16:14:04.007 [localhost-startStop-1] io.hawt.jmx.UploadManager  Using file upload directory: /tmp/uploads
+[INFO] 2016-09-15 16:14:04.018 [localhost-startStop-1] io.hawt.web.AuthenticationFilter  Starting hawtio authentication filter, JAAS authentication disabled
+[INFO] 2016-09-15 16:14:04.646 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean  Building JPA container EntityManagerFactory for persistence unit 'default'
+[INFO] 2016-09-15 16:14:04.663 [restartedMain] o.h.jpa.internal.util.LogHelper  HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[INFO] 2016-09-15 16:14:04.737 [restartedMain] org.hibernate.Version  HHH000412: Hibernate Core {5.0.9.Final}
+[INFO] 2016-09-15 16:14:04.739 [restartedMain] org.hibernate.cfg.Environment  HHH000206: hibernate.properties not found
+[INFO] 2016-09-15 16:14:04.741 [restartedMain] org.hibernate.cfg.Environment  HHH000021: Bytecode provider name : javassist
+[INFO] 2016-09-15 16:14:04.779 [restartedMain] o.h.annotations.common.Version  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[INFO] 2016-09-15 16:14:04.886 [restartedMain] org.hibernate.dialect.Dialect  HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[INFO] 2016-09-15 16:14:05.298 [restartedMain] o.h.tool.hbm2ddl.SchemaExport  HHH000227: Running hbm2ddl schema export
+[INFO] 2016-09-15 16:14:05.307 [restartedMain] o.h.tool.hbm2ddl.SchemaExport  HHH000230: Schema export complete
+[INFO] 2016-09-15 16:14:05.342 [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean  Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] 2016-09-15 16:14:06.539 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]  jolokia: No access restrictor found, access to any MBean is allowed
+[INFO] 2016-09-15 16:14:06.834 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerAdapter  Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e1e6124: startup date [Thu Sep 15 16:14:00 CEST 2016]; root of context hierarchy
+[INFO] 2016-09-15 16:14:06.943 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping  Mapped "{[/generate]}" onto java.lang.String pl.java.scalatech.web.GenerateController.generate()
+[INFO] 2016-09-15 16:14:06.950 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping  Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] 2016-09-15 16:14:06.951 [restartedMain] o.s.w.s.m.m.a.RequestMappingHandlerMapping  Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] 2016-09-15 16:14:06.980 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/plugin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] 2016-09-15 16:14:06.980 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] 2016-09-15 16:14:07.005 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/plugins/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:14:07.005 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/hawtio/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:14:07.006 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/img/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:14:07.006 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:14:07.006 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:14:07.120 [restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping  Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] 2016-09-15 16:14:07.212 [restartedMain] o.a.c.i.c.DefaultTypeConverter  Loaded 188 type converters
+[INFO] 2016-09-15 16:14:07.838 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.840 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.842 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.843 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+[INFO] 2016-09-15 16:14:07.845 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+[INFO] 2016-09-15 16:14:07.845 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.847 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.848 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.849 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+[INFO] 2016-09-15 16:14:07.851 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+[INFO] 2016-09-15 16:14:07.854 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.858 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:07.860 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+[INFO] 2016-09-15 16:14:07.861 [restartedMain] o.s.b.a.e.mvc.EndpointHandlerMapping  Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+[INFO] 2016-09-15 16:14:08.076 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer  LiveReload server is running on port 35729
+[INFO] 2016-09-15 16:14:08.164 [restartedMain] o.s.j.e.a.AnnotationMBeanExporter  Registering beans for JMX exposure on startup
+[INFO] 2016-09-15 16:14:08.171 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Registering beans for JMX exposure on startup
+[INFO] 2016-09-15 16:14:08.177 [restartedMain] o.s.c.s.DefaultLifecycleProcessor  Starting beans in phase 0
+[INFO] 2016-09-15 16:14:08.187 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[INFO] 2016-09-15 16:14:08.215 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[INFO] 2016-09-15 16:14:08.222 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[INFO] 2016-09-15 16:14:08.226 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[INFO] 2016-09-15 16:14:08.231 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[INFO] 2016-09-15 16:14:08.235 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[INFO] 2016-09-15 16:14:08.240 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[INFO] 2016-09-15 16:14:08.244 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[INFO] 2016-09-15 16:14:08.253 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[INFO] 2016-09-15 16:14:08.259 [restartedMain] o.s.b.a.e.jmx.EndpointMBeanExporter  Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[INFO] 2016-09-15 16:14:08.264 [restartedMain] o.s.c.s.DefaultLifecycleProcessor  Starting beans in phase 2147483647
+[INFO] 2016-09-15 16:14:08.336 [restartedMain] o.a.c.spring.boot.RoutesCollector  Loading additional Camel XML routes from: classpath:camel/*.xml
+[INFO] 2016-09-15 16:14:08.337 [restartedMain] o.a.c.spring.boot.RoutesCollector  Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+[INFO] 2016-09-15 16:14:08.338 [restartedMain] o.a.camel.spring.SpringCamelContext  Apache Camel 2.17.3 (CamelContext: camel-1) is starting
+[INFO] 2016-09-15 16:14:08.340 [restartedMain] o.a.c.m.ManagedManagementStrategy  JMX is enabled
+[INFO] 2016-09-15 16:14:08.439 [restartedMain] o.a.c.i.DefaultRuntimeEndpointRegistry  Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+[INFO] 2016-09-15 16:14:08.687 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://throttle] is using shared queue: seda://throttle with size: 2147483647
+[INFO] 2016-09-15 16:14:08.701 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://nextQueue] is using shared queue: seda://nextQueue with size: 2147483647
+[INFO] 2016-09-15 16:14:08.907 [restartedMain] o.a.c.component.seda.SedaEndpoint  Endpoint Endpoint[seda://toFileAndQueue] is using shared queue: seda://toFileAndQueue with size: 2147483647
+[INFO] 2016-09-15 16:14:08.953 [restartedMain] o.a.camel.spring.SpringCamelContext  AllowUseOriginalMessage is enabled. If access to the original message is not needed, then its recommended to turn this option off as it may improve performance.
+[INFO] 2016-09-15 16:14:08.953 [restartedMain] o.a.camel.spring.SpringCamelContext  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[INFO] 2016-09-15 16:14:09.117 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route1 started and consuming from: Endpoint[timer://foo?fixedRate=true&period=2000]
+[INFO] 2016-09-15 16:14:09.122 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route2 started and consuming from: Endpoint[seda://throttle]
+[INFO] 2016-09-15 16:14:09.126 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route3 started and consuming from: Endpoint[seda://nextQueue]
+[INFO] 2016-09-15 16:14:09.128 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route4 started and consuming from: Endpoint[direct://generate]
+[INFO] 2016-09-15 16:14:09.130 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route5 started and consuming from: Endpoint[seda://toFileAndQueue]
+[INFO] 2016-09-15 16:14:09.132 [restartedMain] o.a.camel.spring.SpringCamelContext  Route: route6 started and consuming from: Endpoint[direct://saveToDB]
+[INFO] 2016-09-15 16:14:09.133 [restartedMain] o.a.camel.spring.SpringCamelContext  Total 6 routes, of which 6 are started.
+[INFO] 2016-09-15 16:14:09.134 [restartedMain] o.a.camel.spring.SpringCamelContext  Apache Camel 2.17.3 (CamelContext: camel-1) started in 0.795 seconds
+[INFO] 2016-09-15 16:14:09.144 [restartedMain] o.a.coyote.http11.Http11NioProtocol  Initializing ProtocolHandler ["http-nio-5555"]
+[INFO] 2016-09-15 16:14:09.155 [restartedMain] o.a.coyote.http11.Http11NioProtocol  Starting ProtocolHandler [http-nio-5555]
+[INFO] 2016-09-15 16:14:09.160 [restartedMain] o.a.tomcat.util.net.NioSelectorPool  Using a shared selector for servlet write/read
+[INFO] 2016-09-15 16:14:09.176 [restartedMain] o.s.b.c.e.t.TomcatEmbeddedServletContainer  Tomcat started on port(s): 5555 (http)
+[INFO] 2016-09-15 16:14:09.182 [restartedMain] p.j.s.GeneratorDanychApplication  Started GeneratorDanychApplication in 9.308 seconds (JVM running for 10.096)
+[INFO] 2016-09-15 16:14:10.206 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=graciela.parker@hotmail.com, name=Schmidt, creditCard=1234-2121-1221-1211, creditCardType=laser, login=Ana Hegmann, salary=6395, currency=CHF, position=DEVOPS, city=Wilhelminetown, country=Ecuador)
+[WARN] 2016-09-15 16:14:10.675 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:14:12.136 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lindsey.beatty@gmail.com, name=Hilpert, creditCard=1211-1221-1234-2201, creditCardType=dankort, login=Maddison Wuckert DDS, salary=1899, currency=CHF, position=LEADER, city=West Bart, country=Slovenia)
+[WARN] 2016-09-15 16:14:12.150 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:14:14.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=reed.parisian@yahoo.com, name=Witting, creditCard=1234-2121-1221-1211, creditCardType=switch, login=Oswaldo Powlowski, salary=4331, currency=EUR, position=LEADER, city=Heathcotefurt, country=Gibraltar)
+[INFO] 2016-09-15 16:14:16.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=samanta.lemke@gmail.com, name=West, creditCard=1212-1221-1121-1234, creditCardType=diners_club, login=Abbigail Gleichner V, salary=682, currency=PLN, position=DEVOPS, city=Wellingtonland, country=Czech Republic)
+[INFO] 2016-09-15 16:14:18.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=darrick.keebler@hotmail.com, name=Gutkowski, creditCard=1212-1221-1121-1234, creditCardType=jcb, login=Rosamond Reynolds, salary=2258, currency=USD, position=PROGRAMMER, city=South Shanonview, country=Ireland)
+[INFO] 2016-09-15 16:14:20.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=josh.gislason@gmail.com, name=Koepp, creditCard=1212-1221-1121-1234, creditCardType=laser, login=Shyann Mohr, salary=2212, currency=USD, position=DEVOPS, city=Schowaltermouth, country=Fiji)
+[INFO] 2016-09-15 16:14:22.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=stanford.becker@hotmail.com, name=Lehner, creditCard=1211-1221-1234-2201, creditCardType=visa, login=Hellen Cartwright, salary=7063, currency=CHF, position=PROGRAMMER, city=North Delilahside, country=Georgia)
+[INFO] 2016-09-15 16:14:24.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=frankie.cruickshank@hotmail.com, name=Zulauf, creditCard=1234-2121-1221-1211, creditCardType=switch, login=Greyson Schultz, salary=9207, currency=USD, position=PROGRAMMER, city=West Graysonchester, country=Croatia)
+[INFO] 2016-09-15 16:14:26.136 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=emmitt.wisoky@hotmail.com, name=Heidenreich, creditCard=1234-2121-1221-1211, creditCardType=american_express, login=Einar Yost, salary=6546, currency=USD, position=DEVOPS, city=Lake Blake, country=Bouvet Island (Bouvetoya))
+[INFO] 2016-09-15 16:14:26.693 [http-nio-5555-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]  Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO] 2016-09-15 16:14:26.694 [http-nio-5555-exec-1] o.s.web.servlet.DispatcherServlet  FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] 2016-09-15 16:14:26.716 [http-nio-5555-exec-1] o.s.web.servlet.DispatcherServlet  FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+[INFO] 2016-09-15 16:14:28.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=leanne.yundt@gmail.com, name=Mayert, creditCard=1211-1221-1234-2201, creditCardType=mastercard, login=Gilbert Runte, salary=1797, currency=USD, position=PROGRAMMER, city=Emmetstad, country=Reunion)
+[INFO] 2016-09-15 16:14:28.193 [http-nio-5555-exec-3] io.hawt.web.keycloak.KeycloakServlet  Keycloak integration is disabled
+[INFO] 2016-09-15 16:14:30.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=glenda.greenfelder@gmail.com, name=Lowe, creditCard=1211-1221-1234-2201, creditCardType=forbrugsforeningen, login=Jennyfer Borer, salary=273, currency=CHF, position=PROGRAMMER, city=Lake Norvalland, country=Dominica)
+[WARN] 2016-09-15 16:14:30.218 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:14:32.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ken.nader@yahoo.com, name=Balistreri, creditCard=1234-2121-1221-1211, creditCardType=solo, login=Valentin Robel Sr., salary=8727, currency=USD, position=DEVOPS, city=Wildermanshire, country=Zambia)
+[WARN] 2016-09-15 16:14:32.144 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:14:34.136 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=irma.hammes@yahoo.com, name=Wolf, creditCard=1211-1221-1234-2201, creditCardType=jcb, login=Elinore Miller, salary=8621, currency=USD, position=DBA, city=Kosston, country=Faroe Islands)
+[INFO] 2016-09-15 16:14:36.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=kevin.konopelski@gmail.com, name=Parisian, creditCard=1212-1221-1121-1234, creditCardType=laser, login=Penelope Cummings, salary=7135, currency=USD, position=DBA, city=New Jordy, country=Faroe Islands)
+[INFO] 2016-09-15 16:14:38.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=carson.boyer@yahoo.com, name=Stroman, creditCard=1234-2121-1221-1211, creditCardType=visa, login=Kevon Herzog, salary=4819, currency=CHF, position=DBA, city=Lake Janetview, country=Vietnam)
+[INFO] 2016-09-15 16:14:40.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=gerson.schroeder@gmail.com, name=Koss, creditCard=1228-1221-1221-1431, creditCardType=laser, login=Agustin Morissette V, salary=7780, currency=PLN, position=DEVOPS, city=New Eileen, country=Saudi Arabia)
+[INFO] 2016-09-15 16:14:42.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=florida.o'connell@gmail.com, name=Kautzer, creditCard=1211-1221-1234-2201, creditCardType=forbrugsforeningen, login=Hassan Gorczany, salary=4451, currency=EUR, position=LEADER, city=Rauland, country=Wallis and Futuna)
+[INFO] 2016-09-15 16:14:44.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=kris.mcdermott@hotmail.com, name=Osinski, creditCard=1211-1221-1234-2201, creditCardType=visa, login=Melyssa Baumbach, salary=2568, currency=CHF, position=LEADER, city=Jarrellborough, country=Argentina)
+[INFO] 2016-09-15 16:14:46.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=al.baumbach@gmail.com, name=Mills, creditCard=1228-1221-1221-1431, creditCardType=diners_club, login=Elinor Schaefer, salary=821, currency=PLN, position=MANAGER, city=Lake Lyric, country=Ecuador)
+[INFO] 2016-09-15 16:14:48.133 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=christiana.marks@yahoo.com, name=Goldner, creditCard=1234-2121-1221-1211, creditCardType=maestro, login=Maegan Hettinger, salary=3921, currency=PLN, position=LEADER, city=Aricland, country=Tanzania)
+[INFO] 2016-09-15 16:14:50.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=elvis.toy@yahoo.com, name=Keebler, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Mr. Ashly Lubowitz, salary=7141, currency=CHF, position=LEADER, city=Port Sage, country=Honduras)
+[WARN] 2016-09-15 16:14:50.224 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:14:52.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=leann.stracke@gmail.com, name=Kilback, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Adolph Streich IV, salary=3067, currency=EUR, position=DBA, city=East Geoberg, country=Andorra)
+[WARN] 2016-09-15 16:14:52.147 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:14:54.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=jaquelin.bode@yahoo.com, name=Von, creditCard=1228-1221-1221-1431, creditCardType=maestro, login=Myrtle Gottlieb MD, salary=231, currency=CHF, position=LEADER, city=Juniusburgh, country=Aruba)
+[INFO] 2016-09-15 16:14:56.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=theresia.hermann@gmail.com, name=Funk, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Kayli Kreiger PhD, salary=4672, currency=EUR, position=DEVOPS, city=Gerryview, country=Jersey)
+[INFO] 2016-09-15 16:14:58.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=genevieve.ledner@hotmail.com, name=Powlowski, creditCard=1234-2121-1221-1211, creditCardType=maestro, login=Miss Hilario Emmerich, salary=3487, currency=EUR, position=LEADER, city=Carlottaberg, country=French Polynesia)
+[INFO] 2016-09-15 16:15:00.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=willow.crist@hotmail.com, name=Conroy, creditCard=1211-1221-1234-2201, creditCardType=solo, login=Ms. Jennings McCullough, salary=1360, currency=USD, position=DEVOPS, city=Ramonberg, country=Marshall Islands)
+[INFO] 2016-09-15 16:15:02.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=fausto.jenkins@gmail.com, name=Berge, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Dr. Retha Murray, salary=4498, currency=EUR, position=DBA, city=Walkerfurt, country=Bangladesh)
+[INFO] 2016-09-15 16:15:04.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lori.ruecker@hotmail.com, name=Moen, creditCard=1234-2121-1221-1211, creditCardType=dankort, login=Kaitlyn O'Kon, salary=7494, currency=EUR, position=DBA, city=Kileyhaven, country=Austria)
+[INFO] 2016-09-15 16:15:06.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=dessie.mills@gmail.com, name=Bosco, creditCard=1211-1221-1234-2201, creditCardType=switch, login=Mrs. Jayce Howe, salary=568, currency=CHF, position=MANAGER, city=South Gisselleton, country=Costa Rica)
+[INFO] 2016-09-15 16:15:08.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=turner.crist@gmail.com, name=Lindgren, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Devon Nienow, salary=5698, currency=CHF, position=LEADER, city=Emardhaven, country=United States Minor Outlying Islands)
+[INFO] 2016-09-15 16:15:10.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ellen.jaskolski@yahoo.com, name=Lebsack, creditCard=1212-1221-1121-1234, creditCardType=jcb, login=Chet Roberts, salary=7810, currency=CHF, position=PROGRAMMER, city=Ziemannchester, country=Romania)
+[WARN] 2016-09-15 16:15:10.218 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:15:12.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=arlene.carroll@gmail.com, name=Torp, creditCard=1212-1221-1121-1234, creditCardType=diners_club, login=Myrtice Ziemann, salary=4226, currency=PLN, position=PROGRAMMER, city=Vernburgh, country=Greece)
+[WARN] 2016-09-15 16:15:12.149 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:15:14.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=juliet.corwin@yahoo.com, name=Bruen, creditCard=1211-1221-1234-2201, creditCardType=discover, login=Afton Hirthe, salary=5504, currency=EUR, position=DEVOPS, city=North Gregoriaville, country=French Guiana)
+[INFO] 2016-09-15 16:15:16.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=chanelle.larkin@gmail.com, name=Conroy, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Helga Pacocha, salary=5575, currency=USD, position=LEADER, city=New Maritza, country=China)
+[INFO] 2016-09-15 16:15:18.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=remington.cormier@gmail.com, name=Kulas, creditCard=1228-1221-1221-1431, creditCardType=laser, login=Emelie Hoeger, salary=5306, currency=CHF, position=MANAGER, city=South Wendellshire, country=Fiji)
+[INFO] 2016-09-15 16:15:20.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=sheridan.cole@yahoo.com, name=Bartell, creditCard=1211-1221-1234-2201, creditCardType=american_express, login=Polly Feeney, salary=7300, currency=PLN, position=PROGRAMMER, city=Klockochester, country=Luxembourg)
+[INFO] 2016-09-15 16:15:22.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=karli.ernser@gmail.com, name=Murphy, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Mrs. Jackson Barrows, salary=3054, currency=EUR, position=PROGRAMMER, city=West Anita, country=Antarctica (the territory South of 60 deg S))
+[INFO] 2016-09-15 16:15:24.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=maxine.mraz@yahoo.com, name=Bergstrom, creditCard=1211-1221-1234-2201, creditCardType=discover, login=Stacey Wehner, salary=8817, currency=PLN, position=MANAGER, city=Grantmouth, country=French Polynesia)
+[INFO] 2016-09-15 16:15:26.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=monte.rice@yahoo.com, name=Kovacek, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Madison Schaefer, salary=4908, currency=USD, position=LEADER, city=Bridgetteberg, country=Chad)
+[INFO] 2016-09-15 16:15:28.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=issac.hintz@hotmail.com, name=Gerhold, creditCard=1211-1221-1234-2201, creditCardType=discover, login=Glen Auer, salary=7585, currency=USD, position=PROGRAMMER, city=East Maiaburgh, country=Chile)
+[INFO] 2016-09-15 16:15:30.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=emanuel.hammes@hotmail.com, name=Tremblay, creditCard=1211-1221-1234-2201, creditCardType=jcb, login=Lucy Ernser, salary=3100, currency=EUR, position=DEVOPS, city=Greenholtmouth, country=Greece)
+[WARN] 2016-09-15 16:15:30.224 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:15:32.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lynn.dibbert@gmail.com, name=Kling, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Angelita Huels, salary=1227, currency=USD, position=LEADER, city=South Neldabury, country=Egypt)
+[WARN] 2016-09-15 16:15:32.148 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:15:34.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=reyna.christiansen@hotmail.com, name=Hamill, creditCard=1212-1221-1121-1234, creditCardType=solo, login=Jackie Collins, salary=7547, currency=PLN, position=DEVOPS, city=South Agustina, country=New Zealand)
+[INFO] 2016-09-15 16:15:36.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=nolan.mraz@hotmail.com, name=Bailey, creditCard=1211-1221-1234-2201, creditCardType=jcb, login=Demarcus Moen, salary=1770, currency=USD, position=MANAGER, city=Stromanport, country=Netherlands)
+[INFO] 2016-09-15 16:15:38.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=price.nikolaus@yahoo.com, name=Hayes, creditCard=1228-1221-1221-1431, creditCardType=switch, login=Edwina O'Kon, salary=6409, currency=USD, position=DEVOPS, city=South Caterinaport, country=Qatar)
+[INFO] 2016-09-15 16:15:40.133 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=augusta.maggio@yahoo.com, name=Kohler, creditCard=1211-1221-1234-2201, creditCardType=dankort, login=Oliver Johnston, salary=5767, currency=CHF, position=DEVOPS, city=Hilmabury, country=Bouvet Island (Bouvetoya))
+[INFO] 2016-09-15 16:15:42.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=keshawn.bosco@yahoo.com, name=Hauck, creditCard=1228-1221-1221-1431, creditCardType=switch, login=Mrs. Edison Dietrich, salary=1864, currency=EUR, position=PROGRAMMER, city=South Jodyside, country=Tonga)
+[INFO] 2016-09-15 16:15:44.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=emerald.macgyver@yahoo.com, name=Cremin, creditCard=1228-1221-1221-1431, creditCardType=laser, login=Mr. Claudie Erdman, salary=4405, currency=CHF, position=PROGRAMMER, city=Brandymouth, country=Kiribati)
+[INFO] 2016-09-15 16:15:46.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=rosalinda.buckridge@yahoo.com, name=Bruen, creditCard=1234-2121-1221-1211, creditCardType=mastercard, login=Casandra Heidenreich, salary=9794, currency=PLN, position=PROGRAMMER, city=North Taliaville, country=Congo)
+[INFO] 2016-09-15 16:15:48.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ofelia.kulas@yahoo.com, name=Conroy, creditCard=1212-1221-1121-1234, creditCardType=forbrugsforeningen, login=Daryl Mertz, salary=9867, currency=PLN, position=DBA, city=Torphychester, country=Montenegro)
+[INFO] 2016-09-15 16:15:50.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=brian.steuber@hotmail.com, name=Wehner, creditCard=1211-1221-1234-2201, creditCardType=switch, login=Dr. Vicente Bauch, salary=4541, currency=CHF, position=DEVOPS, city=North Sallie, country=Chad)
+[WARN] 2016-09-15 16:15:50.217 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:15:52.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=adelle.kuhic@yahoo.com, name=Sipes, creditCard=1211-1221-1234-2201, creditCardType=solo, login=Urban Will, salary=9212, currency=USD, position=DEVOPS, city=Port Shyannchester, country=Bosnia and Herzegovina)
+[WARN] 2016-09-15 16:15:52.147 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:15:54.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=josue.cronin@yahoo.com, name=DuBuque, creditCard=1212-1221-1121-1234, creditCardType=american_express, login=Kathleen Rempel, salary=5269, currency=USD, position=DBA, city=Port Edmund, country=Denmark)
+[INFO] 2016-09-15 16:15:56.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=brandy.shanahan@gmail.com, name=Leannon, creditCard=1212-1221-1121-1234, creditCardType=jcb, login=Jennie Schmitt MD, salary=8196, currency=EUR, position=MANAGER, city=South Giles, country=Chile)
+[INFO] 2016-09-15 16:15:58.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=uriel.cassin@gmail.com, name=Mayer, creditCard=1228-1221-1221-1431, creditCardType=american_express, login=Aditya Pollich, salary=4001, currency=EUR, position=DEVOPS, city=Spencermouth, country=Guadeloupe)
+[INFO] 2016-09-15 16:16:00.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=allene.shields@yahoo.com, name=Simonis, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Libby Tillman, salary=4650, currency=CHF, position=DBA, city=West Corbinview, country=Armenia)
+[INFO] 2016-09-15 16:16:02.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=alison.prosacco@hotmail.com, name=Braun, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Joe Crona MD, salary=3482, currency=USD, position=LEADER, city=Welchview, country=Cameroon)
+[INFO] 2016-09-15 16:16:04.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=jaren.connelly@yahoo.com, name=Halvorson, creditCard=1234-2121-1221-1211, creditCardType=dankort, login=Mary Wolf, salary=7338, currency=EUR, position=DBA, city=New Sibyl, country=Mauritania)
+[INFO] 2016-09-15 16:16:06.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=hilton.stiedemann@hotmail.com, name=Lang, creditCard=1234-2121-1221-1211, creditCardType=switch, login=Lorenzo Klein DVM, salary=944, currency=PLN, position=LEADER, city=Eastonmouth, country=Hungary)
+[INFO] 2016-09-15 16:16:08.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=erling.beahan@gmail.com, name=Rau, creditCard=1234-2121-1221-1211, creditCardType=diners_club, login=Rachael Roob, salary=7804, currency=EUR, position=DEVOPS, city=Cadefurt, country=Monaco)
+[INFO] 2016-09-15 16:16:10.140 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=eliseo.feest@yahoo.com, name=Jacobs, creditCard=1211-1221-1234-2201, creditCardType=jcb, login=Amiya Kertzmann, salary=7815, currency=PLN, position=DEVOPS, city=Mikeborough, country=Mauritius)
+[WARN] 2016-09-15 16:16:10.222 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:16:12.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=gwendolyn.kilback@gmail.com, name=Ferry, creditCard=1212-1221-1121-1234, creditCardType=diners_club, login=Joan Jacobson PhD, salary=2363, currency=EUR, position=DBA, city=Lake Caleberg, country=Cameroon)
+[WARN] 2016-09-15 16:16:12.150 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:16:14.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=priscilla.towne@gmail.com, name=O'Conner, creditCard=1234-2121-1221-1211, creditCardType=solo, login=Rocky Parisian III, salary=3662, currency=PLN, position=PROGRAMMER, city=Melanychester, country=Kiribati)
+[INFO] 2016-09-15 16:16:16.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=claudie.terry@gmail.com, name=Kutch, creditCard=1234-2121-1221-1211, creditCardType=laser, login=Bernie Prosacco PhD, salary=1645, currency=USD, position=DBA, city=Jaedenview, country=Romania)
+[INFO] 2016-09-15 16:16:18.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=arne.schuster@hotmail.com, name=Waelchi, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Norwood Stroman, salary=3080, currency=EUR, position=PROGRAMMER, city=Port Shayleeberg, country=Maldives)
+[INFO] 2016-09-15 16:16:20.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ava.haley@gmail.com, name=Runolfsson, creditCard=1234-2121-1221-1211, creditCardType=american_express, login=Marjorie Crona, salary=9612, currency=PLN, position=DBA, city=Port Adalineland, country=Comoros)
+[INFO] 2016-09-15 16:16:22.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=anthony.green@yahoo.com, name=Gerhold, creditCard=1211-1221-1234-2201, creditCardType=visa, login=Ruby Denesik, salary=3873, currency=PLN, position=LEADER, city=Montymouth, country=Colombia)
+[INFO] 2016-09-15 16:16:24.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ned.bergstrom@hotmail.com, name=Gerlach, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Mrs. Sheldon Kerluke, salary=6802, currency=USD, position=DEVOPS, city=North Kylaland, country=Somalia)
+[INFO] 2016-09-15 16:16:26.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=zelda.o'keefe@gmail.com, name=Larson, creditCard=1234-2121-1221-1211, creditCardType=switch, login=Christy Hills, salary=3553, currency=CHF, position=MANAGER, city=North Felipa, country=Honduras)
+[INFO] 2016-09-15 16:16:28.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=jayne.mann@gmail.com, name=Ullrich, creditCard=1212-1221-1121-1234, creditCardType=forbrugsforeningen, login=Dayton Casper MD, salary=9729, currency=PLN, position=DEVOPS, city=Orionland, country=Sudan)
+[INFO] 2016-09-15 16:16:30.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=earnestine.johns@hotmail.com, name=Lockman, creditCard=1228-1221-1221-1431, creditCardType=forbrugsforeningen, login=Joshua Kerluke, salary=6289, currency=PLN, position=MANAGER, city=Lake Graciela, country=Martinique)
+[WARN] 2016-09-15 16:16:30.222 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:16:32.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=melissa.abernathy@yahoo.com, name=Flatley, creditCard=1211-1221-1234-2201, creditCardType=maestro, login=Clifford DuBuque, salary=1757, currency=EUR, position=PROGRAMMER, city=Bartonfurt, country=Democratic People's Republic of Korea)
+[WARN] 2016-09-15 16:16:32.154 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:16:34.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=schuyler.gleason@yahoo.com, name=Bogisich, creditCard=1212-1221-1121-1234, creditCardType=forbrugsforeningen, login=Loraine Mann, salary=6889, currency=PLN, position=DBA, city=Joshborough, country=Mauritania)
+[INFO] 2016-09-15 16:16:36.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=justen.robel@yahoo.com, name=Schiller, creditCard=1212-1221-1121-1234, creditCardType=solo, login=Jewel O'Conner, salary=6613, currency=USD, position=LEADER, city=Millerstad, country=Sudan)
+[INFO] 2016-09-15 16:16:38.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=bridgette.dicki@yahoo.com, name=Lemke, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Florence Rippin, salary=3653, currency=USD, position=MANAGER, city=Annatown, country=Australia)
+[INFO] 2016-09-15 16:16:40.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=mark.o'reilly@hotmail.com, name=Predovic, creditCard=1228-1221-1221-1431, creditCardType=forbrugsforeningen, login=Sofia Abshire, salary=7158, currency=PLN, position=DBA, city=Nyaton, country=Central African Republic)
+[INFO] 2016-09-15 16:16:42.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=mathilde.bergstrom@gmail.com, name=Towne, creditCard=1228-1221-1221-1431, creditCardType=maestro, login=Jeremie Christiansen, salary=91, currency=PLN, position=MANAGER, city=West Lysanne, country=Samoa)
+[INFO] 2016-09-15 16:16:44.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=nikolas.halvorson@hotmail.com, name=Collier, creditCard=1212-1221-1121-1234, creditCardType=maestro, login=Ms. Laurine Mayert, salary=2028, currency=PLN, position=DEVOPS, city=New Annetteview, country=Mali)
+[INFO] 2016-09-15 16:16:46.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=zachariah.gleason@yahoo.com, name=Nicolas, creditCard=1212-1221-1121-1234, creditCardType=solo, login=Dane Heaney, salary=7379, currency=USD, position=DEVOPS, city=Lake Doris, country=Finland)
+[INFO] 2016-09-15 16:16:48.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=adele.predovic@yahoo.com, name=Abbott, creditCard=1228-1221-1221-1431, creditCardType=switch, login=Mona Hermann, salary=5419, currency=EUR, position=LEADER, city=Baileeland, country=Haiti)
+[INFO] 2016-09-15 16:16:50.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=mark.hills@hotmail.com, name=Champlin, creditCard=1228-1221-1221-1431, creditCardType=laser, login=Ayana Thompson Jr., salary=931, currency=EUR, position=PROGRAMMER, city=North Terrence, country=Uganda)
+[WARN] 2016-09-15 16:16:50.223 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:16:52.133 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lelia.swaniawski@hotmail.com, name=Gusikowski, creditCard=1228-1221-1221-1431, creditCardType=american_express, login=Dr. Amelie Gislason, salary=2013, currency=EUR, position=DBA, city=East Marilie, country=Turkey)
+[WARN] 2016-09-15 16:16:52.146 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:16:54.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=bradford.kassulke@hotmail.com, name=Smith, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Denis Reinger, salary=6331, currency=EUR, position=DBA, city=New Trenton, country=Martinique)
+[INFO] 2016-09-15 16:16:56.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=liam.dickens@yahoo.com, name=Cassin, creditCard=1234-2121-1221-1211, creditCardType=solo, login=Reese Langosh, salary=1057, currency=EUR, position=PROGRAMMER, city=Tyrellchester, country=Trinidad and Tobago)
+[INFO] 2016-09-15 16:16:58.136 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=breanna.dicki@yahoo.com, name=Collins, creditCard=1212-1221-1121-1234, creditCardType=dankort, login=Ned Prohaska Sr., salary=7402, currency=PLN, position=PROGRAMMER, city=South Electamouth, country=Botswana)
+[INFO] 2016-09-15 16:17:00.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=alysson.o'conner@gmail.com, name=Mertz, creditCard=1211-1221-1234-2201, creditCardType=dankort, login=Adrian Conroy, salary=6773, currency=CHF, position=MANAGER, city=South Malloryfurt, country=British Indian Ocean Territory (Chagos Archipelago))
+[INFO] 2016-09-15 16:17:02.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=chyna.will@hotmail.com, name=Altenwerth, creditCard=1234-2121-1221-1211, creditCardType=solo, login=Mr. Lisandro Purdy, salary=7976, currency=USD, position=MANAGER, city=North Tiana, country=Equatorial Guinea)
+[INFO] 2016-09-15 16:17:04.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=kaitlin.considine@yahoo.com, name=Kunze, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Glenda Rogahn, salary=3659, currency=USD, position=MANAGER, city=East Carlo, country=Kuwait)
+[INFO] 2016-09-15 16:17:06.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=donato.rohan@hotmail.com, name=Feeney, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Faustino Wiza, salary=3767, currency=USD, position=DEVOPS, city=Port Chris, country=Czech Republic)
+[INFO] 2016-09-15 16:17:08.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=matt.kunze@yahoo.com, name=Parisian, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Rodrick Kshlerin DVM, salary=9822, currency=USD, position=MANAGER, city=Grantburgh, country=Faroe Islands)
+[INFO] 2016-09-15 16:17:10.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=arnoldo.graham@yahoo.com, name=Larkin, creditCard=1228-1221-1221-1431, creditCardType=visa, login=Jeanne Wyman MD, salary=4716, currency=USD, position=MANAGER, city=Hollieberg, country=Solomon Islands)
+[WARN] 2016-09-15 16:17:10.226 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:17:12.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=filiberto.rodriguez@gmail.com, name=Rogahn, creditCard=1234-2121-1221-1211, creditCardType=jcb, login=Pearlie Ruecker, salary=144, currency=PLN, position=MANAGER, city=West Micheal, country=Mexico)
+[WARN] 2016-09-15 16:17:12.149 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:17:14.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=delilah.ledner@hotmail.com, name=O'Hara, creditCard=1211-1221-1234-2201, creditCardType=american_express, login=Josefa Dare, salary=3803, currency=PLN, position=LEADER, city=Lake Marvin, country=Netherlands)
+[INFO] 2016-09-15 16:17:16.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=vaughn.hoeger@yahoo.com, name=Kreiger, creditCard=1234-2121-1221-1211, creditCardType=jcb, login=Mrs. Bridget Littel, salary=3463, currency=USD, position=MANAGER, city=New Ollieside, country=Mayotte)
+[INFO] 2016-09-15 16:17:18.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=antonio.gaylord@hotmail.com, name=Fahey, creditCard=1212-1221-1121-1234, creditCardType=switch, login=Laurine Bahringer, salary=6959, currency=PLN, position=LEADER, city=Carleyborough, country=Western Sahara)
+[INFO] 2016-09-15 16:17:20.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=sim.braun@yahoo.com, name=Predovic, creditCard=1212-1221-1121-1234, creditCardType=maestro, login=Keyshawn Padberg, salary=33, currency=EUR, position=LEADER, city=Oletastad, country=Nauru)
+[INFO] 2016-09-15 16:17:22.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=fae.beahan@gmail.com, name=Stanton, creditCard=1228-1221-1221-1431, creditCardType=mastercard, login=Caroline Thiel III, salary=2560, currency=CHF, position=DEVOPS, city=Darylville, country=Republic of Korea)
+[INFO] 2016-09-15 16:17:24.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=houston.rogahn@hotmail.com, name=Cassin, creditCard=1234-2121-1221-1211, creditCardType=discover, login=Quinten Sauer, salary=1077, currency=CHF, position=DBA, city=New Amya, country=Tonga)
+[INFO] 2016-09-15 16:17:26.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=tre.nitzsche@yahoo.com, name=Stokes, creditCard=1234-2121-1221-1211, creditCardType=solo, login=Arnoldo Haley, salary=2493, currency=PLN, position=PROGRAMMER, city=Treyshire, country=Ecuador)
+[INFO] 2016-09-15 16:17:28.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=vivian.lebsack@hotmail.com, name=Schiller, creditCard=1212-1221-1121-1234, creditCardType=solo, login=Sam Johnston II, salary=7921, currency=PLN, position=DBA, city=Eduardoville, country=Republic of Korea)
+[INFO] 2016-09-15 16:17:30.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=keon.ryan@yahoo.com, name=McDermott, creditCard=1212-1221-1121-1234, creditCardType=maestro, login=Edyth Cruickshank DDS, salary=6471, currency=CHF, position=DEVOPS, city=Port Bernadettehaven, country=Liberia)
+[WARN] 2016-09-15 16:17:30.222 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:17:32.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=winnifred.jerde@yahoo.com, name=Quigley, creditCard=1211-1221-1234-2201, creditCardType=switch, login=Mariam Beer, salary=7694, currency=CHF, position=DEVOPS, city=Rennerborough, country=Luxembourg)
+[WARN] 2016-09-15 16:17:32.148 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:17:34.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=elinor.kirlin@yahoo.com, name=Bogan, creditCard=1228-1221-1221-1431, creditCardType=visa, login=Trycia Schaden, salary=7025, currency=PLN, position=MANAGER, city=Donshire, country=Madagascar)
+[INFO] 2016-09-15 16:17:36.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=aisha.hammes@hotmail.com, name=Wehner, creditCard=1234-2121-1221-1211, creditCardType=maestro, login=Shemar Brakus, salary=2710, currency=PLN, position=MANAGER, city=Arnoldview, country=South Africa)
+[INFO] 2016-09-15 16:17:38.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=german.hansen@yahoo.com, name=Deckow, creditCard=1228-1221-1221-1431, creditCardType=maestro, login=Ella Hayes, salary=1988, currency=USD, position=MANAGER, city=Marquisberg, country=Pakistan)
+[INFO] 2016-09-15 16:17:40.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ceasar.dooley@yahoo.com, name=Koch, creditCard=1211-1221-1234-2201, creditCardType=maestro, login=Miss Jaida Lubowitz, salary=1278, currency=USD, position=DBA, city=Lake Jensen, country=Ecuador)
+[INFO] 2016-09-15 16:17:42.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=mekhi.feeney@yahoo.com, name=Predovic, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Parker Prohaska, salary=7578, currency=USD, position=PROGRAMMER, city=East Floydberg, country=Venezuela)
+[INFO] 2016-09-15 16:17:44.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=jaycee.schoen@yahoo.com, name=Batz, creditCard=1234-2121-1221-1211, creditCardType=switch, login=Adrian Conroy III, salary=8228, currency=PLN, position=DEVOPS, city=Lake Leilani, country=Holy See (Vatican City State))
+[INFO] 2016-09-15 16:17:46.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=hallie.green@hotmail.com, name=Daugherty, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Jaclyn Champlin MD, salary=5135, currency=CHF, position=MANAGER, city=New Bonnieview, country=Trinidad and Tobago)
+[INFO] 2016-09-15 16:17:48.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=marlen.schroeder@gmail.com, name=Metz, creditCard=1228-1221-1221-1431, creditCardType=switch, login=Eloy Oberbrunner, salary=7626, currency=EUR, position=DBA, city=North Carey, country=Saint Helena)
+[INFO] 2016-09-15 16:17:50.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ella.dare@yahoo.com, name=Nicolas, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Alfonso Hansen, salary=4720, currency=PLN, position=DBA, city=New Herminio, country=Spain)
+[WARN] 2016-09-15 16:17:50.226 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:17:52.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=marianna.ullrich@yahoo.com, name=Krajcik, creditCard=1211-1221-1234-2201, creditCardType=solo, login=Jaime Okuneva, salary=418, currency=EUR, position=LEADER, city=New Alishafort, country=Montenegro)
+[WARN] 2016-09-15 16:17:52.145 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:17:54.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=alessia.osinski@hotmail.com, name=Weissnat, creditCard=1211-1221-1234-2201, creditCardType=american_express, login=Dr. Berenice Zulauf, salary=9952, currency=USD, position=DEVOPS, city=Port Christa, country=Denmark)
+[INFO] 2016-09-15 16:17:56.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=marley.shanahan@gmail.com, name=Greenholt, creditCard=1234-2121-1221-1211, creditCardType=discover, login=Mr. Rhiannon Kshlerin, salary=9913, currency=CHF, position=PROGRAMMER, city=Haydenview, country=Azerbaijan)
+[INFO] 2016-09-15 16:17:58.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=orie.o'keefe@gmail.com, name=Miller, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Vena Wuckert, salary=9067, currency=CHF, position=MANAGER, city=North Krista, country=Namibia)
+[INFO] 2016-09-15 16:18:00.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=kendall.block@hotmail.com, name=Marks, creditCard=1212-1221-1121-1234, creditCardType=jcb, login=Landen Kutch, salary=8348, currency=EUR, position=DBA, city=East Antoniettafort, country=India)
+[INFO] 2016-09-15 16:18:02.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=gideon.kulas@gmail.com, name=Collier, creditCard=1228-1221-1221-1431, creditCardType=switch, login=Freeman Funk, salary=2831, currency=CHF, position=DBA, city=North Madison, country=Virgin Islands, British)
+[INFO] 2016-09-15 16:18:04.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=charlene.effertz@gmail.com, name=Okuneva, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Miss Hanna Schmidt, salary=7866, currency=PLN, position=LEADER, city=Wunschport, country=Guyana)
+[INFO] 2016-09-15 16:18:06.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=jarrell.waelchi@gmail.com, name=DuBuque, creditCard=1234-2121-1221-1211, creditCardType=forbrugsforeningen, login=Halie Schimmel, salary=7097, currency=CHF, position=DEVOPS, city=Turnerborough, country=Congo)
+[INFO] 2016-09-15 16:18:08.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=mallory.corwin@gmail.com, name=Mann, creditCard=1212-1221-1121-1234, creditCardType=visa, login=Newton Reilly, salary=6144, currency=CHF, position=PROGRAMMER, city=South Ellie, country=Gabon)
+[INFO] 2016-09-15 16:18:10.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=guillermo.daugherty@yahoo.com, name=Upton, creditCard=1234-2121-1221-1211, creditCardType=jcb, login=Janis Zboncak, salary=5231, currency=PLN, position=MANAGER, city=Lizziemouth, country=Kuwait)
+[WARN] 2016-09-15 16:18:10.229 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:18:12.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=emmet.wilkinson@gmail.com, name=Balistreri, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Miss Helen Lebsack, salary=9032, currency=EUR, position=MANAGER, city=Port Antonebury, country=Anguilla)
+[WARN] 2016-09-15 16:18:12.154 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:18:14.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=gina.lynch@hotmail.com, name=Bayer, creditCard=1211-1221-1234-2201, creditCardType=forbrugsforeningen, login=Dr. Graciela Kuhlman, salary=6001, currency=EUR, position=DBA, city=Schaeferside, country=Congo)
+[INFO] 2016-09-15 16:18:16.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=helene.steuber@yahoo.com, name=Volkman, creditCard=1234-2121-1221-1211, creditCardType=forbrugsforeningen, login=Ms. Jan Kshlerin, salary=1293, currency=USD, position=DBA, city=Lake Eden, country=Argentina)
+[INFO] 2016-09-15 16:18:18.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lou.aufderhar@hotmail.com, name=Kreiger, creditCard=1234-2121-1221-1211, creditCardType=jcb, login=Bret Miller, salary=878, currency=PLN, position=LEADER, city=North Judd, country=Botswana)
+[INFO] 2016-09-15 16:18:20.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=ramona.rutherford@hotmail.com, name=Grimes, creditCard=1234-2121-1221-1211, creditCardType=maestro, login=Joelle Hayes, salary=8610, currency=USD, position=MANAGER, city=Port Derekmouth, country=Cook Islands)
+[INFO] 2016-09-15 16:18:22.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=maia.nolan@gmail.com, name=Cronin, creditCard=1228-1221-1221-1431, creditCardType=forbrugsforeningen, login=Brady Mayer, salary=3985, currency=PLN, position=LEADER, city=Port Danny, country=Venezuela)
+[INFO] 2016-09-15 16:18:24.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=loma.goyette@yahoo.com, name=Schumm, creditCard=1212-1221-1121-1234, creditCardType=switch, login=Isaiah Willms, salary=6141, currency=EUR, position=DBA, city=Port Marianna, country=Antigua and Barbuda)
+[INFO] 2016-09-15 16:18:26.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=mathias.kerluke@gmail.com, name=Fritsch, creditCard=1211-1221-1234-2201, creditCardType=forbrugsforeningen, login=Russell Swift, salary=147, currency=PLN, position=LEADER, city=Shannonfort, country=Cambodia)
+[INFO] 2016-09-15 16:18:28.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lyla.cummerata@hotmail.com, name=Wisoky, creditCard=1234-2121-1221-1211, creditCardType=laser, login=Alisha Gorczany III, salary=6607, currency=PLN, position=LEADER, city=Kesslershire, country=Namibia)
+[INFO] 2016-09-15 16:18:30.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=nyah.cummings@gmail.com, name=Gutkowski, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Floy Turcotte, salary=4056, currency=EUR, position=PROGRAMMER, city=Port Josiah, country=Puerto Rico)
+[WARN] 2016-09-15 16:18:30.228 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:18:32.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=lon.corwin@gmail.com, name=Cummerata, creditCard=1228-1221-1221-1431, creditCardType=jcb, login=Samantha Lesch PhD, salary=4860, currency=CHF, position=MANAGER, city=Lake Lexieville, country=Cote d'Ivoire)
+[WARN] 2016-09-15 16:18:32.152 [Camel (camel-1) thread #1 - seda://nextQueue] o.a.camel.component.jms.JmsBinding  Cannot determine specific JmsMessage type to use from body class. Will use generic JmsMessage. Body class: pl.java.scalatech.domain.User. If you want to send a POJO then your class might need to implement java.io.Serializable, or you can force a specific type by setting the jmsMessageType option on the JMS endpoint.
+[INFO] 2016-09-15 16:18:34.135 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=edgar.mcglynn@gmail.com, name=Jacobson, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Dr. Solon Conroy, salary=6491, currency=EUR, position=DBA, city=East Leliatown, country=Costa Rica)
+[INFO] 2016-09-15 16:18:36.134 [Camel (camel-1) thread #3 - timer://foo] pl.java.scalatech.camel.UserGenerate  user: User(id=null, email=triston.gusikowski@yahoo.com, name=Hahn, creditCard=1234-2121-1221-1211, creditCardType=dankort, login=Maryjane Gerhold, salary=9894, currency=USD, position=DEVOPS, city=Ebbabury, country=Pakistan)
+[INFO] 2016-09-15 16:18:36.324 [RMI TCP Connection(14)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  Application shutdown requested.
+[INFO] 2016-09-15 16:18:36.325 [RMI TCP Connection(14)-127.0.0.1] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext  Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3e1e6124: startup date [Thu Sep 15 16:14:00 CEST 2016]; root of context hierarchy
+[INFO] 2016-09-15 16:18:36.329 [RMI TCP Connection(14)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor  Stopping beans in phase 2147483647
+[INFO] 2016-09-15 16:18:36.330 [RMI TCP Connection(14)-127.0.0.1] o.s.c.s.DefaultLifecycleProcessor  Stopping beans in phase 0
+[INFO] 2016-09-15 16:18:36.332 [RMI TCP Connection(14)-127.0.0.1] o.s.b.a.e.jmx.EndpointMBeanExporter  Unregistering JMX-exposed beans on shutdown
+[INFO] 2016-09-15 16:18:36.332 [RMI TCP Connection(14)-127.0.0.1] o.s.b.a.e.jmx.EndpointMBeanExporter  Unregistering JMX-exposed beans
+[INFO] 2016-09-15 16:18:36.333 [RMI TCP Connection(14)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter  Unregistering JMX-exposed beans on shutdown
+[INFO] 2016-09-15 16:18:36.334 [RMI TCP Connection(14)-127.0.0.1] o.a.camel.spring.SpringCamelContext  Apache Camel 2.17.3 (CamelContext: camel-1) is shutting down
+[INFO] 2016-09-15 16:18:36.335 [RMI TCP Connection(14)-127.0.0.1] o.a.c.impl.DefaultShutdownStrategy  Starting to graceful shutdown 6 routes (timeout 300 seconds)
+[INFO] 2016-09-15 16:18:36.338 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Route: route1 shutdown complete, was consuming from: Endpoint[timer://foo?fixedRate=true&period=2000]
+[INFO] 2016-09-15 16:18:36.339 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 300 seconds. Inflights per route: [route2 = 106]
+[INFO] 2016-09-15 16:18:37.340 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 299 seconds. Inflights per route: [route2 = 106]
+[INFO] 2016-09-15 16:18:38.341 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 298 seconds. Inflights per route: [route2 = 106]
+[INFO] 2016-09-15 16:18:39.341 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 297 seconds. Inflights per route: [route2 = 106]
+[INFO] 2016-09-15 16:18:40.342 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 296 seconds. Inflights per route: [route2 = 106]
+[INFO] 2016-09-15 16:18:41.343 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 295 seconds. Inflights per route: [route2 = 106]
+[INFO] 2016-09-15 16:18:42.344 [Camel (camel-1) thread #4 - ShutdownTask] o.a.c.impl.DefaultShutdownStrategy  Waiting as there are still 106 inflight and pending exchanges to complete, timeout in 294 seconds. Inflights per route: [route2 = 106]
