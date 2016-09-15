@@ -1,0 +1,1035 @@
+[INFO] 2016-09-15 12:02:17.219 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:17 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:02:17 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-1, firedTime=Thu Sep 15 12:02:17 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:19.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:19 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:02:19 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-3, firedTime=Thu Sep 15 12:02:19 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:21.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:21 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:02:21 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-5, firedTime=Thu Sep 15 12:02:21 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:23.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:23 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:02:23 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-7, firedTime=Thu Sep 15 12:02:23 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:25.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:25 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:02:25 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-9, firedTime=Thu Sep 15 12:02:25 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:27.201 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:27 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 12:02:27 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-11, firedTime=Thu Sep 15 12:02:27 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:29.200 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:29 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 12:02:29 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-13, firedTime=Thu Sep 15 12:02:29 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:31.201 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:31 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 12:02:31 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-15, firedTime=Thu Sep 15 12:02:31 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:33.201 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:33 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 12:02:33 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-17, firedTime=Thu Sep 15 12:02:33 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:35.200 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-20
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:35 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=10, CamelTimerFiredTime=Thu Sep 15 12:02:35 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-19, firedTime=Thu Sep 15 12:02:35 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:37.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-22
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:37 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=11, CamelTimerFiredTime=Thu Sep 15 12:02:37 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-21, firedTime=Thu Sep 15 12:02:37 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:02:39.201 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-24
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:02:39 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=12, CamelTimerFiredTime=Thu Sep 15 12:02:39 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-33962-1473933734202-0-23, firedTime=Thu Sep 15 12:02:39 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:29.624 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:29 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:06:29 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-1, firedTime=Thu Sep 15 12:06:29 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:31.610 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:31 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:06:31 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-3, firedTime=Thu Sep 15 12:06:31 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:33.611 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:33 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:06:33 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-5, firedTime=Thu Sep 15 12:06:33 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:35.610 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:35 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:06:35 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-7, firedTime=Thu Sep 15 12:06:35 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:37.608 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:37 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:06:37 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-9, firedTime=Thu Sep 15 12:06:37 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:39.607 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:39 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 12:06:39 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-11, firedTime=Thu Sep 15 12:06:39 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:41.611 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:41 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 12:06:41 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-13, firedTime=Thu Sep 15 12:06:41 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:43.610 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:43 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 12:06:43 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-15, firedTime=Thu Sep 15 12:06:43 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:45.609 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:45 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 12:06:45 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-17, firedTime=Thu Sep 15 12:06:45 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:47.610 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-20
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:47 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=10, CamelTimerFiredTime=Thu Sep 15 12:06:47 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-19, firedTime=Thu Sep 15 12:06:47 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:49.609 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-22
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:49 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=11, CamelTimerFiredTime=Thu Sep 15 12:06:49 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-21, firedTime=Thu Sep 15 12:06:49 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:06:51.609 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-24
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:06:51 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=12, CamelTimerFiredTime=Thu Sep 15 12:06:51 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-37813-1473933986867-0-23, firedTime=Thu Sep 15 12:06:51 CEST 2016}
+, BodyType: null
+, Body: [Body is null]
+, Out: null: 
+]
+[INFO] 2016-09-15 12:10:52.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:10:52 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:10:52 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-1, firedTime=Thu Sep 15 12:10:52 CEST 2016, My_header=111}
+, BodyType: String
+, Body: Hello world
+, Out: null: 
+]
+[INFO] 2016-09-15 12:10:54.813 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:10:54 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:10:54 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-3, firedTime=Thu Sep 15 12:10:54 CEST 2016, My_header=111}
+, BodyType: String
+, Body: Hello world
+, Out: null: 
+]
+[INFO] 2016-09-15 12:10:56.812 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:10:56 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:10:56 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-5, firedTime=Thu Sep 15 12:10:56 CEST 2016, My_header=111}
+, BodyType: String
+, Body: Hello world
+, Out: null: 
+]
+[INFO] 2016-09-15 12:10:58.811 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:10:58 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:10:58 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-7, firedTime=Thu Sep 15 12:10:58 CEST 2016, My_header=111}
+, BodyType: String
+, Body: Hello world
+, Out: null: 
+]
+[INFO] 2016-09-15 12:11:00.812 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:11:00 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:11:00 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-43116-1473934249999-0-9, firedTime=Thu Sep 15 12:11:00 CEST 2016, My_header=111}
+, BodyType: String
+, Body: Hello world
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:41.481 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:41 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:15:41 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-1, firedTime=Thu Sep 15 12:15:41 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:43.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:43 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:15:43 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-3, firedTime=Thu Sep 15 12:15:43 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:45.451 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:45 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:15:45 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-5, firedTime=Thu Sep 15 12:15:45 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:47.446 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:47 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:15:47 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-7, firedTime=Thu Sep 15 12:15:47 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:49.447 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:49 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:15:49 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-9, firedTime=Thu Sep 15 12:15:49 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:51.444 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:51 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 12:15:51 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-11, firedTime=Thu Sep 15 12:15:51 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:53.447 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:53 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 12:15:53 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-13, firedTime=Thu Sep 15 12:15:53 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:55.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:55 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 12:15:55 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-15, firedTime=Thu Sep 15 12:15:55 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:57.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:57 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 12:15:57 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-17, firedTime=Thu Sep 15 12:15:57 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:15:59.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-20
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:15:59 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=10, CamelTimerFiredTime=Thu Sep 15 12:15:59 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-19, firedTime=Thu Sep 15 12:15:59 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:01.444 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-22
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:01 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=11, CamelTimerFiredTime=Thu Sep 15 12:16:01 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-21, firedTime=Thu Sep 15 12:16:01 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:03.444 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-24
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:03 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=12, CamelTimerFiredTime=Thu Sep 15 12:16:03 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-23, firedTime=Thu Sep 15 12:16:03 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:05.448 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-26
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:05 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=13, CamelTimerFiredTime=Thu Sep 15 12:16:05 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-25, firedTime=Thu Sep 15 12:16:05 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:07.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-28
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:07 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=14, CamelTimerFiredTime=Thu Sep 15 12:16:07 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-27, firedTime=Thu Sep 15 12:16:07 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:09.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-30
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:09 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=15, CamelTimerFiredTime=Thu Sep 15 12:16:09 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-29, firedTime=Thu Sep 15 12:16:09 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:11.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-32
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:11 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=16, CamelTimerFiredTime=Thu Sep 15 12:16:11 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-31, firedTime=Thu Sep 15 12:16:11 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:13.448 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-34
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:13 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=17, CamelTimerFiredTime=Thu Sep 15 12:16:13 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-33, firedTime=Thu Sep 15 12:16:13 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:15.447 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-36
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:15 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=18, CamelTimerFiredTime=Thu Sep 15 12:16:15 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-35, firedTime=Thu Sep 15 12:16:15 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:17.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-38
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:17 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=19, CamelTimerFiredTime=Thu Sep 15 12:16:17 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-37, firedTime=Thu Sep 15 12:16:17 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:16:19.445 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-40
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:16:19 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=process1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=20, CamelTimerFiredTime=Thu Sep 15 12:16:19 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-36018-1473934538808-0-39, firedTime=Thu Sep 15 12:16:19 CEST 2016, My_header=111}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=null, name=null, creditCard=null, creditCardType=null, login=null, salary=null, currency=null, city=null, country=null, position=null)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:01.458 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:01 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:34:01 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-1, firedTime=Thu Sep 15 12:34:01 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=carolyn.kris@yahoo.com, name=Beahan, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Lacy Gibson, salary=4527, currency=EUR, city=Faheyshire, country=Peru, position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:03.404 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:03 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:34:03 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-3, firedTime=Thu Sep 15 12:34:03 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=jayce.dietrich@gmail.com, name=Jakubowski, creditCard=1234-2121-1221-1211, creditCardType=mastercard, login=Mrs. Lukas Block, salary=9361, currency=PLN, city=Shanonhaven, country=Luxembourg, position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:05.401 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:05 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:34:05 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-5, firedTime=Thu Sep 15 12:34:05 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=theresa.kutch@hotmail.com, name=Hills, creditCard=1211-1221-1234-2201, creditCardType=solo, login=Sasha Feeney, salary=4380, currency=PLN, city=New Kacieborough, country=Pakistan, position=MANAGER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:07.402 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:07 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:34:07 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-7, firedTime=Thu Sep 15 12:34:07 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=golden.hermiston@hotmail.com, name=Vandervort, creditCard=1211-1221-1234-2201, creditCardType=solo, login=Dr. Tania Prohaska, salary=7281, currency=PLN, city=South Nigel, country=Saint Kitts and Nevis, position=DEVOPS)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:09.404 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:09 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:34:09 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-9, firedTime=Thu Sep 15 12:34:09 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=fermin.balistreri@gmail.com, name=Grant, creditCard=1234-2121-1221-1211, creditCardType=visa, login=Hershel Huels, salary=3778, currency=PLN, city=Monahanland, country=Cape Verde, position=DEVOPS)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:11.404 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:11 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 12:34:11 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-11, firedTime=Thu Sep 15 12:34:11 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=rhiannon.graham@yahoo.com, name=Wisozk, creditCard=1211-1221-1234-2201, creditCardType=switch, login=Lempi Kreiger, salary=6623, currency=USD, city=East Yvonne, country=Albania, position=DBA)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:13.404 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:13 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 12:34:13 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-13, firedTime=Thu Sep 15 12:34:13 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=polly.miller@yahoo.com, name=Nienow, creditCard=1234-2121-1221-1211, creditCardType=maestro, login=Mrs. Johan Gulgowski, salary=6962, currency=USD, city=Pollichview, country=Sweden, position=LEADER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:15.406 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:15 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 12:34:15 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-15, firedTime=Thu Sep 15 12:34:15 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=edwardo.willms@hotmail.com, name=Rice, creditCard=1228-1221-1221-1431, creditCardType=american_express, login=Shaun Batz, salary=6753, currency=USD, city=Port Brionna, country=Norway, position=MANAGER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:17.402 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:17 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 12:34:17 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-17, firedTime=Thu Sep 15 12:34:17 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=jackson.green@yahoo.com, name=Farrell, creditCard=1212-1221-1121-1234, creditCardType=jcb, login=Alexzander Jacobson, salary=6424, currency=EUR, city=Sipeschester, country=Congo, position=DBA)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:19.402 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-20
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:19 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=10, CamelTimerFiredTime=Thu Sep 15 12:34:19 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-19, firedTime=Thu Sep 15 12:34:19 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=henriette.hermann@hotmail.com, name=Kerluke, creditCard=1211-1221-1234-2201, creditCardType=laser, login=Bettye Welch V, salary=1908, currency=EUR, city=West Maida, country=Ethiopia, position=DBA)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:34:21.404 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-22
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:34:21 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=11, CamelTimerFiredTime=Thu Sep 15 12:34:21 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41818-1473935638624-0-21, firedTime=Thu Sep 15 12:34:21 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=teresa.schamberger@hotmail.com, name=Schowalter, creditCard=1234-2121-1221-1211, creditCardType=visa, login=Sunny Runolfsson, salary=9087, currency=CHF, city=West Tomasaport, country=Sweden, position=LEADER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:38:18.014 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34134-1473935894855-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:38:17 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:38:17 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34134-1473935894855-0-1, firedTime=Thu Sep 15 12:38:17 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=charlene.champlin@yahoo.com, name=White, creditCard=1234-2121-1221-1211, creditCardType=mastercard, login=Alden Leffler, salary=2864, currency=EUR, city=North Philip, country=Vietnam, position=MANAGER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:38:19.966 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34134-1473935894855-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:38:19 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:38:19 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34134-1473935894855-0-3, firedTime=Thu Sep 15 12:38:19 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=chanelle.frami@gmail.com, name=Hermann, creditCard=1212-1221-1121-1234, creditCardType=diners_club, login=Albert Koepp, salary=2814, currency=PLN, city=Ahmedview, country=Iceland, position=DBA)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:46:27.393 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:46:27 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:46:27 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-1, firedTime=Thu Sep 15 12:46:27 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=archibald.zulauf@hotmail.com, name=Lakin, creditCard=1212-1221-1121-1234, creditCardType=dankort, login=Mozelle Hilpert, salary=4730, currency=EUR, city=Crookstown, country=Bulgaria, position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:46:29.349 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:46:29 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:46:29 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-3, firedTime=Thu Sep 15 12:46:29 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=lucie.huel@gmail.com, name=Thiel, creditCard=1234-2121-1221-1211, creditCardType=diners_club, login=Myriam Lehner, salary=1584, currency=CHF, city=East Cordell, country=Angola, position=DBA)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:46:31.351 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:46:31 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:46:31 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-5, firedTime=Thu Sep 15 12:46:31 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=valentine.lang@yahoo.com, name=McCullough, creditCard=1211-1221-1234-2201, creditCardType=jcb, login=Judge Botsford, salary=6366, currency=PLN, city=Klockotown, country=Japan, position=DEVOPS)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:46:33.349 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:46:33 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:46:33 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-7, firedTime=Thu Sep 15 12:46:33 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=milton.mosciski@yahoo.com, name=Crooks, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Marley Toy, salary=6239, currency=USD, city=Aidachester, country=Timor-Leste, position=LEADER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:46:35.347 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:46:35 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:46:35 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-40297-1473936384615-0-9, firedTime=Thu Sep 15 12:46:35 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=laura.walker@gmail.com, name=Botsford, creditCard=1234-2121-1221-1211, creditCardType=visa, login=Carmela Hyatt, salary=3008, currency=CHF, city=Lemkeview, country=Costa Rica, position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:00.868 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:00 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:48:00 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-1, firedTime=Thu Sep 15 12:48:00 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=imogene.green@gmail.com, name=Rempel, creditCard=1234-2121-1221-1211, creditCardType=visa, login=Marcia Nienow, salary=319, currency=PLN, city=Ivachester, country=Papua New Guinea, position=DEVOPS)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:02.814 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:02 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:48:02 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-3, firedTime=Thu Sep 15 12:48:02 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=cletus.lueilwitz@yahoo.com, name=Carter, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Pinkie Schmeler V, salary=4320, currency=EUR, city=East Samsonland, country=Falkland Islands (Malvinas), position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:04.816 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:04 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:48:04 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-5, firedTime=Thu Sep 15 12:48:04 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=alyson.ankunding@yahoo.com, name=Dietrich, creditCard=1228-1221-1221-1431, creditCardType=dankort, login=Dolores Becker, salary=4684, currency=CHF, city=South Laury, country=Slovakia (Slovak Republic), position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:06.813 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:06 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:48:06 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-7, firedTime=Thu Sep 15 12:48:06 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=fletcher.murazik@gmail.com, name=Schumm, creditCard=1228-1221-1221-1431, creditCardType=diners_club, login=Elnora Bosco IV, salary=2535, currency=PLN, city=Heaneybury, country=Netherlands Antilles, position=DEVOPS)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:08.815 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:08 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:48:08 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-9, firedTime=Thu Sep 15 12:48:08 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=ford.koss@gmail.com, name=Jaskolski, creditCard=1212-1221-1121-1234, creditCardType=solo, login=Linwood Stokes, salary=1241, currency=PLN, city=Dachview, country=Monaco, position=DEVOPS)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:10.815 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:10 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 12:48:10 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-11, firedTime=Thu Sep 15 12:48:10 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=william.quitzon@hotmail.com, name=Predovic, creditCard=1228-1221-1221-1431, creditCardType=diners_club, login=Michele Tremblay, salary=9479, currency=EUR, city=Lake Davidmouth, country=Cayman Islands, position=DBA)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:12.815 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:12 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 12:48:12 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-13, firedTime=Thu Sep 15 12:48:12 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=pearline.reilly@yahoo.com, name=Olson, creditCard=1211-1221-1234-2201, creditCardType=solo, login=Lilliana Crona, salary=3122, currency=EUR, city=North Trevamouth, country=Monaco, position=PROGRAMMER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:14.817 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:14 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 12:48:14 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-15, firedTime=Thu Sep 15 12:48:14 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=vinnie.welch@hotmail.com, name=Hammes, creditCard=1234-2121-1221-1211, creditCardType=forbrugsforeningen, login=Maryjane McLaughlin, salary=7041, currency=CHF, city=New William, country=Marshall Islands, position=LEADER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:48:16.815 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:48:16 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 12:48:16 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-41295-1473936478190-0-17, firedTime=Thu Sep 15 12:48:16 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=preston.o'reilly@gmail.com, name=Corwin, creditCard=1228-1221-1221-1431, creditCardType=forbrugsforeningen, login=Ricardo Erdman, salary=6018, currency=PLN, city=Kuhnchester, country=Tajikistan, position=MANAGER)
+, Out: null: 
+]
+[INFO] 2016-09-15 12:50:53.868 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:50:53 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 12:50:53 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-1, firedTime=Thu Sep 15 12:50:53 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:50:55.850 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:50:55 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 12:50:55 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-3, firedTime=Thu Sep 15 12:50:55 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:50:57.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:50:57 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 12:50:57 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-5, firedTime=Thu Sep 15 12:50:57 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:50:59.850 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:50:59 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 12:50:59 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-7, firedTime=Thu Sep 15 12:50:59 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:01.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:01 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 12:51:01 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-9, firedTime=Thu Sep 15 12:51:01 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:03.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:03 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 12:51:03 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-11, firedTime=Thu Sep 15 12:51:03 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:05.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:05 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 12:51:05 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-13, firedTime=Thu Sep 15 12:51:05 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:07.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:07 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 12:51:07 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-15, firedTime=Thu Sep 15 12:51:07 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:09.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:09 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 12:51:09 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-17, firedTime=Thu Sep 15 12:51:09 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:11.850 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-20
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:11 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=10, CamelTimerFiredTime=Thu Sep 15 12:51:11 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-19, firedTime=Thu Sep 15 12:51:11 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:13.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-22
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:13 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=11, CamelTimerFiredTime=Thu Sep 15 12:51:13 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-21, firedTime=Thu Sep 15 12:51:13 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:15.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-24
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:15 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=12, CamelTimerFiredTime=Thu Sep 15 12:51:15 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-23, firedTime=Thu Sep 15 12:51:15 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:17.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-26
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:17 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=13, CamelTimerFiredTime=Thu Sep 15 12:51:17 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-25, firedTime=Thu Sep 15 12:51:17 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:19.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-28
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:19 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=14, CamelTimerFiredTime=Thu Sep 15 12:51:19 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-27, firedTime=Thu Sep 15 12:51:19 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:21.848 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-30
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:21 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=15, CamelTimerFiredTime=Thu Sep 15 12:51:21 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-29, firedTime=Thu Sep 15 12:51:21 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:23.849 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-32
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:23 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=16, CamelTimerFiredTime=Thu Sep 15 12:51:23 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-31, firedTime=Thu Sep 15 12:51:23 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 12:51:25.848 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-34
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 12:51:25 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=17, CamelTimerFiredTime=Thu Sep 15 12:51:25 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34730-1473936651290-0-33, firedTime=Thu Sep 15 12:51:25 CEST 2016}
+, BodyType: String
+, Body: hello
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:28.264 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-2
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:28 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=1, CamelTimerFiredTime=Thu Sep 15 14:06:28 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-1, firedTime=Thu Sep 15 14:06:28 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=curt.nicolas@hotmail.com, name=McGlynn, creditCard=1228-1221-1221-1431, creditCardType=solo, login=Ms. Austen Leannon, salary=8001, currency=PLN, position=MANAGER, city=McCulloughshire, country=Albania)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:30.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-4
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:30 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=2, CamelTimerFiredTime=Thu Sep 15 14:06:30 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-3, firedTime=Thu Sep 15 14:06:30 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=kari.mohr@yahoo.com, name=Bayer, creditCard=1234-2121-1221-1211, creditCardType=laser, login=Omer Gaylord, salary=4448, currency=CHF, position=MANAGER, city=East Howardside, country=Sao Tome and Principe)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:32.206 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-6
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:32 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=3, CamelTimerFiredTime=Thu Sep 15 14:06:32 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-5, firedTime=Thu Sep 15 14:06:32 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=ford.weissnat@gmail.com, name=Nader, creditCard=1228-1221-1221-1431, creditCardType=switch, login=Ubaldo Harvey, salary=5052, currency=EUR, position=DEVOPS, city=Kingbury, country=Rwanda)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:34.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-8
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:34 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=4, CamelTimerFiredTime=Thu Sep 15 14:06:34 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-7, firedTime=Thu Sep 15 14:06:34 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=judy.keeling@yahoo.com, name=Weber, creditCard=1211-1221-1234-2201, creditCardType=mastercard, login=Lavon Turner, salary=6852, currency=USD, position=LEADER, city=Mayertstad, country=Saint Martin)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:36.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-10
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:36 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=5, CamelTimerFiredTime=Thu Sep 15 14:06:36 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-9, firedTime=Thu Sep 15 14:06:36 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=kale.konopelski@hotmail.com, name=Raynor, creditCard=1228-1221-1221-1431, creditCardType=solo, login=Noemy Kemmer, salary=1116, currency=PLN, position=PROGRAMMER, city=West Carleyton, country=Bosnia and Herzegovina)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:38.205 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-12
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:38 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=6, CamelTimerFiredTime=Thu Sep 15 14:06:38 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-11, firedTime=Thu Sep 15 14:06:38 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=tyler.padberg@gmail.com, name=Thiel, creditCard=1212-1221-1121-1234, creditCardType=diners_club, login=Alysha Boyer I, salary=7142, currency=PLN, position=DBA, city=Kerlukeburgh, country=Belize)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:40.204 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-14
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:40 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=7, CamelTimerFiredTime=Thu Sep 15 14:06:40 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-13, firedTime=Thu Sep 15 14:06:40 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=reginald.koelpin@gmail.com, name=Boehm, creditCard=1234-2121-1221-1211, creditCardType=mastercard, login=Dejuan O'Kon, salary=1528, currency=PLN, position=DEVOPS, city=North Alysson, country=United Kingdom)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:42.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-16
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:42 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=8, CamelTimerFiredTime=Thu Sep 15 14:06:42 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-15, firedTime=Thu Sep 15 14:06:42 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=roscoe.dare@gmail.com, name=Hoppe, creditCard=1212-1221-1121-1234, creditCardType=mastercard, login=Mrs. Tavares Grant, salary=701, currency=CHF, position=MANAGER, city=Lake Kadinhaven, country=Cape Verde)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:44.204 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-18
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:44 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=9, CamelTimerFiredTime=Thu Sep 15 14:06:44 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-17, firedTime=Thu Sep 15 14:06:44 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=savion.morissette@gmail.com, name=Simonis, creditCard=1212-1221-1121-1234, creditCardType=visa, login=Dr. Willard Kuvalis, salary=5632, currency=PLN, position=DBA, city=Lake Maximillianborough, country=Bahamas)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:46.204 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-20
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:46 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=10, CamelTimerFiredTime=Thu Sep 15 14:06:46 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-19, firedTime=Thu Sep 15 14:06:46 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=brendon.stracke@hotmail.com, name=Bernhard, creditCard=1212-1221-1121-1234, creditCardType=discover, login=Anderson Jones, salary=7501, currency=PLN, position=DBA, city=Edmondview, country=Central African Republic)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:48.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-22
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:48 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=11, CamelTimerFiredTime=Thu Sep 15 14:06:48 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-21, firedTime=Thu Sep 15 14:06:48 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=reva.considine@hotmail.com, name=Ritchie, creditCard=1234-2121-1221-1211, creditCardType=american_express, login=Ms. Andres Cummerata, salary=4286, currency=CHF, position=DBA, city=Hobartfort, country=Paraguay)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:50.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-24
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:50 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=12, CamelTimerFiredTime=Thu Sep 15 14:06:50 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-23, firedTime=Thu Sep 15 14:06:50 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=holly.hayes@yahoo.com, name=Paucek, creditCard=1228-1221-1221-1431, creditCardType=discover, login=Gayle Parisian, salary=5216, currency=USD, position=DEVOPS, city=South Ceasarberg, country=Greenland)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:52.204 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-26
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:52 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=13, CamelTimerFiredTime=Thu Sep 15 14:06:52 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-25, firedTime=Thu Sep 15 14:06:52 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=otilia.reinger@hotmail.com, name=Funk, creditCard=1212-1221-1121-1234, creditCardType=dankort, login=Jonathon Marvin, salary=1618, currency=USD, position=DEVOPS, city=McLaughlinberg, country=Cambodia)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:54.201 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-28
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:54 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=14, CamelTimerFiredTime=Thu Sep 15 14:06:54 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-27, firedTime=Thu Sep 15 14:06:54 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=juana.stanton@hotmail.com, name=Jakubowski, creditCard=1234-2121-1221-1211, creditCardType=mastercard, login=Miss Kyleigh Sauer, salary=9874, currency=PLN, position=DEVOPS, city=Lake Juvenalmouth, country=Haiti)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:56.204 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-30
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:56 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=15, CamelTimerFiredTime=Thu Sep 15 14:06:56 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-29, firedTime=Thu Sep 15 14:06:56 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=madalyn.bode@gmail.com, name=Stoltenberg, creditCard=1234-2121-1221-1211, creditCardType=american_express, login=Juliana O'Kon V, salary=5999, currency=PLN, position=PROGRAMMER, city=Effertzchester, country=Spain)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:06:58.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-32
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:06:58 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=16, CamelTimerFiredTime=Thu Sep 15 14:06:58 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-31, firedTime=Thu Sep 15 14:06:58 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=imani.marvin@gmail.com, name=Bogan, creditCard=1211-1221-1234-2201, creditCardType=mastercard, login=Aimee McKenzie, salary=839, currency=PLN, position=DBA, city=Millerborough, country=Bermuda)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:07:00.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-36
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:07:00 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=17, CamelTimerFiredTime=Thu Sep 15 14:07:00 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-35, firedTime=Thu Sep 15 14:07:00 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=keyon.mosciski@gmail.com, name=Larkin, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Kaylie Walker, salary=279, currency=PLN, position=MANAGER, city=Cristianmouth, country=Slovakia (Slovak Republic))
+, Out: null: 
+]
+[INFO] 2016-09-15 14:07:02.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-38
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:07:02 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=18, CamelTimerFiredTime=Thu Sep 15 14:07:02 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-37, firedTime=Thu Sep 15 14:07:02 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=kaleigh.mraz@yahoo.com, name=Rau, creditCard=1212-1221-1121-1234, creditCardType=jcb, login=Thea Wiegand, salary=3595, currency=EUR, position=MANAGER, city=North Wilburnstad, country=Taiwan)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:07:04.204 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-40
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:07:04 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=19, CamelTimerFiredTime=Thu Sep 15 14:07:04 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-39, firedTime=Thu Sep 15 14:07:04 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=gladyce.krajcik@hotmail.com, name=Feeney, creditCard=1211-1221-1234-2201, creditCardType=diners_club, login=Pierce Gleason, salary=4577, currency=USD, position=LEADER, city=South Emmanuelletown, country=Cameroon)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:07:06.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-42
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:07:06 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=20, CamelTimerFiredTime=Thu Sep 15 14:07:06 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-41, firedTime=Thu Sep 15 14:07:06 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=rozella.zemlak@hotmail.com, name=Bailey, creditCard=1234-2121-1221-1211, creditCardType=forbrugsforeningen, login=Mrs. Gabriella Frami, salary=8708, currency=EUR, position=PROGRAMMER, city=Remingtonchester, country=Jersey)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:07:08.203 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-44
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:07:08 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=21, CamelTimerFiredTime=Thu Sep 15 14:07:08 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-43, firedTime=Thu Sep 15 14:07:08 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=gia.christiansen@gmail.com, name=Bayer, creditCard=1234-2121-1221-1211, creditCardType=discover, login=Randal Davis, salary=981, currency=CHF, position=MANAGER, city=Binsland, country=Japan)
+, Out: null: 
+]
+[INFO] 2016-09-15 14:07:10.202 [Camel (camel-1) thread #0 - timer://foo] myCamel  Exchange[
+, Id: ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-46
+, ExchangePattern: InOnly
+, Properties: {CamelCreatedTimestamp=Thu Sep 15 14:07:10 CEST 2016, CamelMessageHistory=[DefaultMessageHistory[routeId=route1, node=setHeader1], DefaultMessageHistory[routeId=route1, node=setBody1], DefaultMessageHistory[routeId=route1, node=bean1], DefaultMessageHistory[routeId=route1, node=to1]], CamelTimerCounter=22, CamelTimerFiredTime=Thu Sep 15 14:07:10 CEST 2016, CamelTimerName=foo, CamelTimerPeriod=2000, CamelToEndpoint=log://myCamel?level=INFO&multiline=true&showAll=true}
+, Headers: {a=test, breadcrumbId=ID-przodownik-Dell-System-XPS-L702X-34041-1473941184291-0-45, firedTime=Thu Sep 15 14:07:10 CEST 2016}
+, BodyType: pl.java.scalatech.domain.User
+, Body: User(id=null, email=abigail.klocko@gmail.com, name=Kling, creditCard=1228-1221-1221-1431, creditCardType=diners_club, login=Amanda Wehner, salary=3608, currency=CHF, position=LEADER, city=Brendanmouth, country=Slovakia (Slovak Republic))
+, Out: null: 
+]
