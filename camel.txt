@@ -6,6 +6,8 @@ file
 
 log
 
+bean
+
 activemq
 
 timer
@@ -19,3 +21,9 @@ header
 direct
 
 seda
+
+recepientList
+
+stream 
+
+http

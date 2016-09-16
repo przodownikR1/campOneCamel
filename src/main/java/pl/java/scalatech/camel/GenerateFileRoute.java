@@ -42,7 +42,7 @@ public class GenerateFileRoute extends RouteBuilder{
           .routeId("marshalToFile")
           .setHeader("position").method(HeaderPosition.class).to("direct:selectFile");
          
-          from("direct:selectFile").choice()
+          from("direct:selectFile").routeId("chooser").choice()
           .when(simple("${in.header.position} contains 'PROGRAMMER' "))
           .setHeader(CAMEL_FILE_NAME).simple("${in.header.position}.csv")
           .to("direct:marshal")
@@ -52,7 +52,7 @@ public class GenerateFileRoute extends RouteBuilder{
           .otherwise().to("direct:marshal");
           
          
-          from("direct:marshal").marshal(bindy)
+          from("direct:marshal").routeId("marshaller").marshal(bindy)
           .to(FILE_USER_FILE_EXIST_APPEND);
        
          from(DIRECT_SAVE_TO_DB).routeId("saveToDB").removeHeader(CAMEL_FILE_NAME).beanRef(USER_SERVICE);
