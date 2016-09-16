@@ -84,3 +84,13 @@ public class Tabela_kursow {
     }
 
 }
+public class RecipientListBean {
+	private  List<String> uris;
+	public RecipientListBean(String... uris) {
+		this.uris = Arrays.asList(uris);
+	}
+    @Handler
+	public List<String> route(Exchange exchange) {
+		return uris;
+	}
+}
