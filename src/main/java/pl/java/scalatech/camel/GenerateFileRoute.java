@@ -13,7 +13,7 @@ public class GenerateFileRoute extends RouteBuilder{
 
     private static final String DIRECT_GENERATE = "direct:generate";
 
-    private static final String FILE_USER_FILE_EXIST_APPEND = "file://user?fileExist=Append";
+    private static final String FILE_USER_FILE_EXIST_APPEND = "file:///home/przodownik/user?fileExist=Append";
 
     private static final String ACTIVEMQ_USER = "activemq:user";
 
@@ -32,7 +32,7 @@ public class GenerateFileRoute extends RouteBuilder{
     public void configure() throws Exception {
         
        from(DIRECT_GENERATE).routeId("generateFileRoute")
-         .loop(10)
+         .loop(100)
          .bean(UserGenerate.class)
          .setHeader(CAMEL_FILE_NAME).simple(fileName)
          .multicast()

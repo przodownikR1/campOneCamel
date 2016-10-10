@@ -13,36 +13,36 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import pl.java.scalatech.domain.User.UserBuilder;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
 @Data
 @Entity
-@CsvRecord(separator = ",", crlf = "UNIX", skipFirstLine = true)
+@CsvRecord(separator = ",", crlf = "UNIX" ,skipFirstLine=true)
 public class User {
-    @DataField(pos = 1)
+    @DataField(pos = 1,trim=true)
     @Id @GeneratedValue
-    private Long id;
-    @DataField(pos = 2)
+    private Long id = 0l;
+    @DataField(pos = 2,trim=true)
     private String email;
-    @DataField(pos = 3)
+    @DataField(pos = 3,trim=true)
     private String name;
-    @DataField(pos = 10)
-    private String creditCard;
-    @DataField(pos = 4)
+    @DataField(pos = 4,trim=true)
     private String creditCardType;
+    @DataField(pos = 5,trim=true)
     private String login;
-    @DataField(pos = 5)
+    @DataField(pos = 6,trim=true)
     private BigDecimal salary;
-    @DataField(pos = 6)
+    @DataField(pos = 7,trim=true)
     private Currency currency;
-    @DataField(pos = 7)
+    @DataField(pos = 8,trim=true)
     private Position position;
-    @DataField(pos = 8)
+    @DataField(pos = 9,trim=true)
     private String city;
-    @DataField(pos = 9)
+    @DataField(pos = 10,trim=true)
     private String country;
-    
-    
+    @DataField(pos = 11,trim=true)
+    private String creditCard;
 }
