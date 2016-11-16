@@ -1,3 +1,0 @@
-# campOneCamel
-# campTwoCamel
-# campTwoCamel

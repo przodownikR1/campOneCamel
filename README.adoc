@@ -1,0 +1,21 @@
+== Camel Boot Microcsevice
+
+
+:numbered:
+:icons: font
+:pagenums:
+:imagesdir: img
+:iconsdir: ./icons
+:stylesdir: ./styles
+:scriptsdir: ./js
+
+:image-link: https://pbs.twimg.com/profile_images/425289501980639233/tUWf7KiC.jpeg
+ifndef::sourcedir[:sourcedir: ./src/main/java/]
+ifndef::resourcedir[:resourcedir: ./src/main/resources/]
+ifndef::imgsdir[:imgsdir: ./../img]
+:source-highlighter: coderay
+
+Cloud Foundry : http://nbp.cfapps.io/byCode/EUR
+
+
+Heroku : https://frozen-sands-85877.herokuapp.com/byCode/USD
