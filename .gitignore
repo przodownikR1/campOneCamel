@@ -80,3 +80,6 @@ gc.log
 /file_from_fd_store.png
 nbp
 user
+*.log
+.log
+generateData.log
