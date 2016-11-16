@@ -29,12 +29,16 @@ repositories {
 
 //applicationDefaultJvmArgs=["-Xms128m","-Xmx256m"]
 
-springBoot  {
-                classifier='exec'
-             
-  //              embeddedLaunchScriptProperties=['jvm_options'  : applicationDefaultJvmArgs.join('    ')]
+bootRun {
+    jvmArgs = ["-Xdebug", "-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=10021","-Xms16m","-Xmx64m"]
+    jvmArgs = ["-Dspring.profiles.active=dev"]
+    //jvmArgs = ['-Dserver.port=9001']
+    addResources = true
+    if ( project.hasProperty('jvmArgs') ) {
+        jvmArgs project.jvmArgs.split('\\s+')
+    }
+    
 }
-
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
