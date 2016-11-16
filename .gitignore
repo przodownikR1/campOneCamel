@@ -6,7 +6,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+
 *.war
 *.ear
 
@@ -17,8 +17,6 @@ pom.xml.releaseBackup
 pom.xml.next
 release.properties
 
-#gradle
-.gradle
 
 #play
 bin
@@ -70,7 +68,6 @@ local.properties
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.zip
