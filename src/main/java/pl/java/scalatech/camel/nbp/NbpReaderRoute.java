@@ -11,7 +11,7 @@ public class NbpReaderRoute extends RouteBuilder {
         
         RecipientListBean recipient= new RecipientListBean("file://nbp?fileName=${date:now:yyyyMMddHHmmss}.xml","stream:out");
  
-        from("timer://nbp?fixedRate=true&period=30s")
+        from("timer://nbp?fixedRate=true&period=5000s")
         .routeId("httpCurrencyLoaderRoute")
         .to("http://www.nbp.pl//kursy/xml/LastA.xml").convertBodyTo(String.class).recipientList(method(recipient));
     }

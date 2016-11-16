@@ -13,7 +13,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pl.java.scalatech.domain.User.UserBuilder;
 
 @AllArgsConstructor
 @NoArgsConstructor
